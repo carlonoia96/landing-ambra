@@ -1,0 +1,36 @@
+.block .elem-container-sep svg {
+    width: calc(900% + 1.3px);
+    height: 30px;
+    transform: translateX(-42%) rotateY(80deg);
+}
+
+.block .elem-container-sep {
+    position: absolute;
+    width: 150vmin;
+}
+
+.block .elem-container-sep.top {
+    top: 0;
+}
+
+.block .elem-container-sep.bottom {
+    bottom: -37px;
+    transform: scaleX(-1);
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.elementor-shape-fill {
+    fill: #fff;
+}
+
+.block {
+    height: calc(100vmin);
+    background-color: #f4efec;
+    position: relative;
+}
+
+.block path.resources-color{
+    fill: #f4efec;
+}

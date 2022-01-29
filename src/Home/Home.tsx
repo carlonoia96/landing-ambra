@@ -4,6 +4,7 @@ import ThisIsMe from "../This-is-me/This-is-me";
 import Advertisement from "../Advertisement/Advertisement";
 import Resources from "../Resources/Resources";
 import Ecommerce from "../E-commerce/E-commerce";
+import Block from "../Block/Block";
 
 interface HomeProps {
     setCurrentRoute: (menu: string) => void;
@@ -27,6 +28,7 @@ class Home extends React.Component<HomeProps> {
                     </div>
                 </div>
                 <ThisIsMe/>
+                <Block/>
                 <Advertisement/>
                 <Resources/>
                 <Ecommerce/>
