@@ -179,8 +179,11 @@
 }
 
 .advertisement_ {
-    height: 500px;
-    background-color: #e4d8fa;
-    margin-bottom: 200px;
+    height: calc(100vmin);
+    background-color: #f4efec;
     position: relative;
+}
+
+.advertisement_ path.resources-color{
+    fill: #dac6ff;
 }
