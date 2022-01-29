@@ -1,8 +1,9 @@
 .resources {
-    height: 900px;
+    height: calc(100vmin);
     background-color: #dac6ff;
 }
 
+/*
 .resources .resources-container{
     height: 470px;
     background-color: white;
@@ -92,4 +93,4 @@
     bottom: 84px;
     right: 96.3%;
 }
-
+*/

@@ -2,20 +2,20 @@
     text-transform: uppercase;
 }
 
-.home-first-viewed .box-2 .image{
+.home-first-viewed .box-1 .image{
     background-image: url("../assets/images/ambra.png");
     background-size: calc(56vmin);
     background-repeat: no-repeat;
-    background-position: center 10vmin;
+    background-position: left 10vmin;
 }
 
 .home-first-viewed .box-container{
     display: flex;
     flex-direction: row;
-    height: calc(100% + 8px);
+    height: calc(100%);
 }
 
-.home-first-viewed .box-1{
+.home-first-viewed .box-2{
     font-size: 58px;
     width: 45%;
 }
@@ -32,22 +32,26 @@
     overflow: hidden;
 }
 
-.home-first-viewed .box-1{
-    width: 44%;
+.home-first-viewed .box-2{
+    width: 50%;
 }
 
-.home-first-viewed .box-2{
-    width: 56%;
+.home-first-viewed .box-1{
+    width: 50%;
     height: 100%;
 }
 
-.home-first-viewed .box-2 .image{
+.home-first-viewed .box-1 .image{
     height: 100%;
 }
 
 .home-first-viewed .box-container{
-    background-image: url("../assets/images/home.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("../assets/images/new-bk-home.svg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-first-viewed .box-2 p{
+    text-align: right;
 }

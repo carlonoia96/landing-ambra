@@ -1,0 +1,132 @@
+.block {
+    height: calc(100vmin);
+    background-color: #f4efec;
+    position: relative;
+    background-image: url("../assets/images/bk-res.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -15vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block .elem-container-sep svg {
+    width: calc(900% + 1.3px);
+    height: 30px;
+    transform: translateX(-42%) rotateY(80deg);
+}
+
+.block .elem-container-sep {
+    position: absolute;
+    width: 150vmin;
+}
+
+.block .elem-container-sep.top {
+    top: 0;
+    left: 0;
+}
+
+.block .elem-container-sep.bottom {
+    bottom: -37px;
+    transform: scaleX(-1);
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.elementor-shape-fill {
+    fill: #fff;
+}
+
+.block path.resources-color{
+    fill: #f4efec;
+}
+
+
+.block .block-title {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #d0b1a1;
+    font-weight: 200;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.block .block-title p {
+    width: 580px;
+}
+
+.block .card {
+    width: 380px;
+    height: 260px;
+    background-color: white;
+    border-radius: 35px;
+    zoom: .84;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.block .thumbnail {
+    height: 200px;
+    width: 100%;
+}
+
+.block .card.num1 .image {
+    background-image: url("../assets/images/10.png");
+}
+
+.block .card.num2 .image {
+    background-image: url("../assets/images/6.png");
+}
+
+.block .card.num3 .image {
+    background-image: url("../assets/images/11.png");
+}
+
+
+.block .card .image {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block .info {
+    height: 60px;
+}
+
+.block .info .title {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 6%;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+.block .info .price {
+    color: red;
+    text-align: right;
+    padding-right: 8%;
+    padding-right: 8%;
+}
+
+
+.block .info .free {
+    color: #00d637;
+    text-align: right;
+    padding-right: 8%;
+    padding-right: 8%;
+}
+
+.block .cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

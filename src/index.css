@@ -11,7 +11,7 @@
 
 body {
     margin: 0;
-    font-family:  'Poppins','Comfortaa','silkamedium', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'Poppins', 'Comfortaa', 'silkamedium', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -259,39 +259,47 @@ button:hover {
     font-weight: 100;
 }
 
-.fw300{
+.fw300 {
     font-weight: 300;
 }
 
-.fw500{
+.fw500 {
     font-weight: 500;
 }
 
-.base-color{
+.base-color {
     color: #dac6ff;
 }
 
-.felx-center{
+.felx-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
-.generic-padding{
-    padding-left: 8%;
-    padding-right: 8%;
+.generic-padding {
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
-.mt50{
+.mt50 {
     margin-top: 50px;
 }
 
-.second-color{
+.second-color {
     color: #f0ff00;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.lineH35 {
+    line-height: 35px;
 }
 
 @media only screen and (min-width: 1920px) {
