@@ -6,7 +6,7 @@
     background-image: url("../assets/images/ambra.png");
     background-size: calc(56vmin);
     background-repeat: no-repeat;
-    background-position: center 10vmin;
+    background-position: right 10vmin;
 }
 
 .home-first-viewed .box-container{
@@ -46,8 +46,5 @@
 }
 
 .home-first-viewed .box-container{
-    background-image: url("../assets/images/home.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #e4d8fa;
 }
