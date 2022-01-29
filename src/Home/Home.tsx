@@ -18,7 +18,7 @@ class Home extends React.Component<HomeProps> {
                             <p className={"fw100"}>
                                 Ti aiuto a portare le tue <span className={"enlight"}>competenze</span> al livello
                                 sucessivo, per vivere meglio attraverso il <br></br> <span
-                                className={"enlight"}>design.</span>
+                                className={"enlight"}>design!</span>
                             </p>
                         </div>
                         <div className={"box-2"}>
