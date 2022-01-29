@@ -1,0 +1,26 @@
+[
+  {
+    "title":"Home",
+    "url" :"/"
+  },
+  {
+    "title":"Chi sono",
+    "url" :"/chi-sono"
+  },
+  {
+    "title":"I miei corsi",
+    "url" :"/come-lavoriamo"
+  },
+  {
+    "title":"CV",
+    "url" :"/progetti"
+  },
+  {
+    "title":"Faq",
+    "url" :"/faq"
+  },
+  {
+    "title":"Contattami",
+    "url" :"/contatti"
+  }
+]

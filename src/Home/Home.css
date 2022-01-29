@@ -1,0 +1,53 @@
+.uppercase{
+    text-transform: uppercase;
+}
+
+.home-first-viewed .box-2 .image{
+    background-image: url("../assets/images/ambra.png");
+    background-size: calc(56vmin);
+    background-repeat: no-repeat;
+    background-position: center 10vmin;
+}
+
+.home-first-viewed .box-container{
+    display: flex;
+    flex-direction: row;
+    height: calc(100% + 8px);
+}
+
+.home-first-viewed .box-1{
+    font-size: 58px;
+    width: 45%;
+}
+
+.home-first-viewed .enlight{
+    background-color: #dac6ff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+}
+
+.home-first-viewed{
+    height: calc(100vmin);
+    overflow: hidden;
+}
+
+.home-first-viewed .box-1{
+    width: 44%;
+}
+
+.home-first-viewed .box-2{
+    width: 56%;
+    height: 100%;
+}
+
+.home-first-viewed .box-2 .image{
+    height: 100%;
+}
+
+.home-first-viewed .box-container{
+    background-image: url("../assets/images/home.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
