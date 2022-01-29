@@ -30,8 +30,7 @@ class Home extends React.Component<HomeProps> {
                 <ThisIsMe/>
                 <Block/>
                 <Advertisement/>
-                <Resources/>
-                <Ecommerce/>
+
             </>
         )
     }

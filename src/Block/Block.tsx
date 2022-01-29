@@ -16,6 +16,58 @@ class Block extends React.Component{
                                   d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
                         </svg>
                     </div>
+                    <div className={'block-title'}>
+                        <p>
+                            Dai un'occhiata!
+                        </p>
+                    </div>
+                    <div className={'cards-container'}>
+                        <a href="https://www.unacasainarmonia.it/course/lighting-tips/" target={"_blank"}>
+                            <div className={'card num1'}>
+                                <div className={'thumbnail'}>
+                                    <div className={'image'}/>
+                                </div>
+                                <div className={'info'}>
+                                    <p className={'title'}>
+                                        Lighting Tips
+                                    </p>
+                                    <p className={'free'}>
+                                        Free
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.unacasainarmonia.it/course/lighting-design-2-2/" target={"_blank"}>
+                            <div className={'card num2'}>
+                                <div className={'thumbnail'}>
+                                    <div className={'image'}/>
+                                </div>
+                                <div className={'info'}>
+                                    <p className={'title'}>
+                                        Trova il colore che ti rispecchia
+                                    </p>
+                                    <p className={'free'}>
+                                        Free
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.unacasainarmonia.it/course/9842/" target={"_blank"}>
+                            <div className={'card num3'}>
+                                <div className={'thumbnail'}>
+                                    <div className={'image'}/>
+                                </div>
+                                <div className={'info'}>
+                                    <p className={'title'}>
+                                        Guida pratica alle piante
+                                    </p>
+                                    <p className={'free'}>
+                                        Free
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <div className={"elem-container-sep bottom"}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                             <path className="elementor-shape-fill resources-color" opacity="0.33"
