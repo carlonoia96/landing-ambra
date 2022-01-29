@@ -1,6 +1,5 @@
 .ecommerce {
-    background-color: #dac6ff;
-    height: 480px;
+    height: calc(100vmin)
 }
 
 .ecommerce .ecommerce-title {
@@ -82,7 +81,7 @@
     padding-right: 8%;
 }
 
-.ecommerce .cards-container{
+.ecommerce .cards-container {
     display: flex;
     align-items: center;
     justify-content: center;
