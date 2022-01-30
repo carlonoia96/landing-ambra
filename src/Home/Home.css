@@ -16,7 +16,7 @@
 }
 
 .home-first-viewed .box-2{
-    font-size: 58px;
+    font-size: calc(16px + 2.2vmax);
     width: 45%;
 }
 

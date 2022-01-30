@@ -21,7 +21,8 @@
 
 .block .elem-container-sep {
     position: absolute;
-    width: 150vmin;
+    width: 100%;
+    overflow: hidden;
 }
 
 .block .elem-container-sep.top {

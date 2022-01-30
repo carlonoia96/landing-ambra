@@ -33,16 +33,16 @@
 
 .this-is-me .text-container{
     width: 66%;
-    font-size: 20px;
+    font-size: calc(12px + 1vmin);
     text-align: end;
 }
 
 .this-is-me .title{
-    font-size: 45px;
+    font-size: calc(20px + 2.7vmin);
 }
 
 .this-is-me .row2 p{
-    font-size: 35px;
+    font-size: calc(16px + 2vmin);
     text-align: center;
     margin-top: 100px;
     width: 70%;
