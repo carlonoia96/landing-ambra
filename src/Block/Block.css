@@ -1,5 +1,6 @@
 .block {
     height: calc(100vmin);
+    max-height: 1080px;
     background-color: #f4efec;
     position: relative;
     background-image: url("../assets/images/bk-res.svg");

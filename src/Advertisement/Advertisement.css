@@ -1,5 +1,6 @@
 .advertisement {
     height: calc(100vmin);
+    max-height: 1080px;
     /*background-color: #ebd6fe;*/
     position: relative;
     background-image: url("../assets/images/ads.svg");

@@ -2,8 +2,6 @@ import React from 'react';
 import './Home.css';
 import ThisIsMe from "../This-is-me/This-is-me";
 import Advertisement from "../Advertisement/Advertisement";
-import Resources from "../Resources/Resources";
-import Ecommerce from "../E-commerce/E-commerce";
 import Block from "../Block/Block";
 
 interface HomeProps {
@@ -30,7 +28,6 @@ class Home extends React.Component<HomeProps> {
                 <ThisIsMe/>
                 <Block/>
                 <Advertisement/>
-
             </>
         )
     }
