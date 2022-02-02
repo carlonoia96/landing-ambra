@@ -302,6 +302,20 @@ button:hover {
     line-height: 35px;
 }
 
+.double-haight{
+    height: calc(100vmin * 2);
+    max-height: calc(1080px * 2);
+}
+
+.default-haight{
+    height: calc(100vmin);
+    max-height: 1080px;
+}
+
+.down{
+    z-index: -1;
+}
+
 @media only screen and (min-width: 1920px) {
     .home-header-div {
         width: 70%;

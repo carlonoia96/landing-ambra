@@ -1,5 +1,6 @@
 import React from 'react';
 import './Advertisement.css';
+import AboutMasterclass from "../About-masterclass/About-masterclass";
 
 class Advertisement extends React.Component {
     render() {
