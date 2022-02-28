@@ -5,7 +5,10 @@
 .home-first-viewed{
     height: calc(100vh);
     overflow: hidden;
-    background-color: #ff1f1f;
+    background-image: url("../../src/assets/images/homeNew.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -15,7 +18,7 @@
 .home-first-viewed .inner-box{
     width: 700px;
     height: 390px;
-    background-color: #031f32;
+    background-color: rgb(3 31 50 / 80%);
     padding: 50px;
 }
 
