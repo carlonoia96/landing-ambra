@@ -2,6 +2,55 @@
     text-transform: uppercase;
 }
 
+.home-first-viewed{
+    height: calc(100vh);
+    overflow: hidden;
+    background-color: #ff1f1f;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-first-viewed .inner-box{
+    width: 700px;
+    height: 390px;
+    background-color: #031f32;
+    padding: 50px;
+}
+
+.home-first-viewed .inner-box p:first-child{
+    color: #ff1f1f;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 120px;
+    line-height: 120px;
+    font-weight: 500;
+}
+
+.home-first-viewed .inner-box p:last-child{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.home-first-viewed .filtro-scurente{
+    background-color: black;
+    opacity: .5;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
 .home-first-viewed .box-1 .image{
     background-image: url("../assets/images/ambra.png");
     background-size: calc(56vmin);
@@ -27,10 +76,7 @@
     font-weight: 300;
 }
 
-.home-first-viewed{
-    height: calc(100vmin);
-    overflow: hidden;
-}
+
 
 .home-first-viewed .box-2{
     width: 50%;

@@ -13,6 +13,17 @@ interface HomeProps {
 class Home extends React.Component<HomeProps> {
     render() {
         return (<>
+
+                <div className={"home-first-viewed"}>
+                    <div className={"inner-box"}>
+                        <p>
+                            Interior <br/>
+                            Design
+                        </p>
+                        <p>Step by step</p>
+                    </div>
+                    <div className={"filtro-scurente position-absolute"}/>
+                </div>
                 <div className={"home-first-viewed"}>
                     <div className={"box-container generic-padding"}>
                         <div className={"box-1 "}>
