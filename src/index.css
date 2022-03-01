@@ -316,6 +316,10 @@ button:hover {
     z-index: -1;
 }
 
+.text-center{
+    text-align: center;
+}
+
 @media only screen and (min-width: 1920px) {
     .home-header-div {
         width: 70%;

@@ -1,0 +1,50 @@
+.presentation {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.color-red{
+    color: #ff1f1f;
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.presentation .col1{
+    width: 50%;
+    font-size: 25px;
+    padding: 50px;
+}
+
+.presentation .col1 p:not(:first-child){
+    margin-top: 30px;
+}
+
+.presentation .col2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.presentation .immage{
+    background-image: url("../assets/images/io.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 100%;
+}
+
+.presentation .title{
+    font-weight: 500;
+}
+
+.presentation .fs-35{
+    font-size: 35px;
+}

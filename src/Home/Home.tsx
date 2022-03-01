@@ -5,6 +5,7 @@ import Advertisement from "../Advertisement/Advertisement";
 import Block from "../Block/Block";
 import InteriorDesignMasterclass from "../Interior-design-masterclass/Interior-design-masterclass";
 import AboutMasterclass from "../About-masterclass/About-masterclass";
+import Presentation from "../Presentation/Presentation";
 
 interface HomeProps {
     setCurrentRoute: (menu: string) => void;
@@ -24,7 +25,7 @@ class Home extends React.Component<HomeProps> {
                     </div>
                     <div className={"filtro-scurente position-absolute"}/>
                 </div>
-                <div className={"home-first-viewed"}>
+               {/* <div className={"home-first-viewed"}>
                     <div className={"box-container generic-padding"}>
                         <div className={"box-1 "}>
                             <div className={"image"}/>
@@ -37,7 +38,8 @@ class Home extends React.Component<HomeProps> {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div>*/}
+                <Presentation/>
                 <ThisIsMe/>
                 <Block/>
                 <Advertisement/>
