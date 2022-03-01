@@ -1,8 +1,8 @@
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
-.generic-block-1{
+.generic-block-1 {
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -15,10 +15,68 @@
     justify-content: flex-end;
 }
 
-.generic-block-1 p{
+.generic-block-2 {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../../src/assets/images/ideas.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.generic-block-3 {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../../src/assets/images/scrivania.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.generic-block-3 p{
+    color: white;
+}
+
+.generic-block-2 .col1 {
+    flex: 1.5;
+    font-size: 35px;
+    text-align: center;
+    padding: 10%;
+}
+
+.generic-block-2 .col2 {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.mt50{
+    margin-top: 50px;
+}
+
+.generic-block-2 .image {
+    background-image: url("../../src/assets/images/ideas2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80%;
+    width: 100%;
+}
+
+.generic-block-1 p {
     font-size: 45px;
 }
-.home-first-viewed{
+
+.home-first-viewed {
     height: calc(100vh);
     overflow: hidden;
     background-image: url("../../src/assets/images/homeNew.png");
@@ -31,18 +89,22 @@
     justify-content: center;
 }
 
-.home-first-viewed .inner-box{
+.home-first-viewed .inner-box {
     width: 700px;
     height: 390px;
     background-color: rgb(0 0 0 / 80%);
     padding: 50px;
 }
 
-.color-red{
+.color-red {
     color: #ff1f1f;
 }
 
-.generic-block-1 .text-container{
+.color-black{
+    color: black;
+}
+
+.generic-block-1 .text-container {
     text-align: right;
     color: white;
     position: relative;
@@ -50,7 +112,7 @@
     margin-right: 10%;
 }
 
-.home-first-viewed .inner-box p:first-child{
+.home-first-viewed .inner-box p:first-child {
     color: #ff1f1f;
     text-transform: uppercase;
     text-align: center;
@@ -61,7 +123,7 @@
     z-index: 1;
 }
 
-.home-first-viewed .inner-box p:last-child{
+.home-first-viewed .inner-box p:last-child {
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -72,7 +134,7 @@
 }
 
 .home-first-viewed .filtro-scurente,
-.generic-block-1 .filtro-scurente{
+.generic-block-1 .filtro-scurente {
     background-color: black;
     opacity: .5;
     top: 0;
@@ -81,29 +143,29 @@
     width: 100%;
 }
 
-.position-absolute{
+.position-absolute {
     position: absolute;
 }
 
-.home-first-viewed .box-1 .image{
+.home-first-viewed .box-1 .image {
     background-image: url("../assets/images/ambra.png");
     background-size: calc(56vmin);
     background-repeat: no-repeat;
     background-position: left 10vmin;
 }
 
-.home-first-viewed .box-container{
+.home-first-viewed .box-container {
     display: flex;
     flex-direction: row;
     height: calc(100%);
 }
 
-.home-first-viewed .box-2{
+.home-first-viewed .box-2 {
     font-size: calc(16px + 2.2vmax);
     width: 45%;
 }
 
-.home-first-viewed .enlight{
+.home-first-viewed .enlight {
     background-color: #dac6ff;
     padding-left: 15px;
     padding-right: 15px;
@@ -111,26 +173,26 @@
 }
 
 
-.home-first-viewed .box-2{
+.home-first-viewed .box-2 {
     width: 50%;
 }
 
-.home-first-viewed .box-1{
+.home-first-viewed .box-1 {
     width: 50%;
     height: 100%;
 }
 
-.home-first-viewed .box-1 .image{
+.home-first-viewed .box-1 .image {
     height: 100%;
 }
 
-.home-first-viewed .box-container{
+.home-first-viewed .box-container {
     background-image: url("../assets/images/new-bk-home.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.home-first-viewed .box-2 p{
+.home-first-viewed .box-2 p {
     text-align: right;
 }

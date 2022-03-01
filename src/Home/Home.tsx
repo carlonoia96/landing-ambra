@@ -38,6 +38,29 @@ class Home extends React.Component<HomeProps> {
                     </div>
                     <div className={"filtro-scurente position-absolute"}/>
                 </div>
+                <div className={"generic-block-2"}>
+                    <div className={"col1"}>
+                        <p>
+                            <span className={"color-red"}>Insegno</span> a home lovers, architetti, interior designer o
+                            aspiranti tali il potere di un buon
+                            progetto d'interni.
+                        </p>
+                        <p className={"mt50"}>
+                            Con una laurea in economia aiuto anche questa figura professionale ad <span
+                            className={"color-red"}>emergere nel mercato</span>,
+                            insegnando la giusta strategia.
+                        </p>
+                    </div>
+                    <div className={"col2"}>
+                        <div className={"image"}/>
+                    </div>
+                </div>
+                <div className={"generic-block-3"}>
+                    <p>
+                        La <span className={"color-red"}>chiave</span> del tuo <span className={"color-black"}>successo</span> <br/>
+                        dipende da te!
+                    </p>
+                </div>
                 <ThisIsMe/>
                 <Block/>
                 <Advertisement/>
