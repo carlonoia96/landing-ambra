@@ -25,21 +25,19 @@ class Home extends React.Component<HomeProps> {
                     </div>
                     <div className={"filtro-scurente position-absolute"}/>
                 </div>
-               {/* <div className={"home-first-viewed"}>
-                    <div className={"box-container generic-padding"}>
-                        <div className={"box-1 "}>
-                            <div className={"image"}/>
-                        </div>
-                        <div className={"box-2 felx-center"}>
-                            <p className={"fw100"}>
-                                Ti aiuto a portare le tue <span className={"enlight"}>competenze</span> al livello
-                                sucessivo, per vivere meglio attraverso il <br></br> <span
-                                className={"enlight"}>design.</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>*/}
                 <Presentation/>
+                <div className={"generic-block-1"}>
+                    <div className={"text-container"}>
+                        <p>
+                            Porto le tue competenze <br/>
+                            al livello sucessivo,<br/>
+                            per vivere meglio<br/>
+                            attraverso il<br/>
+                            <span className={"color-red"}>design</span>.
+                        </p>
+                    </div>
+                    <div className={"filtro-scurente position-absolute"}/>
+                </div>
                 <ThisIsMe/>
                 <Block/>
                 <Advertisement/>

@@ -2,6 +2,22 @@
     text-transform: uppercase;
 }
 
+.generic-block-1{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../../src/assets/images/scale.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.generic-block-1 p{
+    font-size: 45px;
+}
 .home-first-viewed{
     height: calc(100vh);
     overflow: hidden;
@@ -20,6 +36,18 @@
     height: 390px;
     background-color: rgb(0 0 0 / 80%);
     padding: 50px;
+}
+
+.color-red{
+    color: #ff1f1f;
+}
+
+.generic-block-1 .text-container{
+    text-align: right;
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-right: 10%;
 }
 
 .home-first-viewed .inner-box p:first-child{
@@ -43,7 +71,8 @@
     z-index: 1;
 }
 
-.home-first-viewed .filtro-scurente{
+.home-first-viewed .filtro-scurente,
+.generic-block-1 .filtro-scurente{
     background-color: black;
     opacity: .5;
     top: 0;
@@ -80,7 +109,6 @@
     padding-right: 15px;
     font-weight: 300;
 }
-
 
 
 .home-first-viewed .box-2{
