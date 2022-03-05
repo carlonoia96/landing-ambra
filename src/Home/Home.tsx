@@ -154,7 +154,7 @@ class Home extends React.Component<HomeProps> {
                         </p>
                     </div>
                     <div className={"filtro-scurente position-absolute"}/>
-                </div>
+                </div> 
                 {/*<div className={"generic-block-3"}>
                     <p>
                         La <span className={"color-red"}>chiave</span> del tuo <span
