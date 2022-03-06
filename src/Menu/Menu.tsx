@@ -61,9 +61,9 @@ class Menu extends React.Component<MenuProps> {
                     </div>
                     <div className="menu-body menu-element">
                         {menus.map((menu) => (
-                            <Link className="menu-item" to={menu.url} onClick={() => this.onClickMenu(menu)}>
+                            <a className="menu-item" href={menu.url} target={"_blank"} onClick={() => this.onClickMenu(menu)} >
                                 {menu.title}
-                            </Link>
+                            </a>
                         ))}
                     </div>
                     {/*<div className="menu-footer  menu-element">

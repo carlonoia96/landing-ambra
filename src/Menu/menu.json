@@ -1,26 +1,30 @@
 [
   {
     "title":"Home",
-    "url" :"/"
+    "url" :"https://www.unacasainarmonia.it/"
   },
   {
     "title":"Chi sono",
-    "url" :"/chi-sono"
+    "url" :"/landing"
   },
   {
     "title":"I miei corsi",
-    "url" :"/come-lavoriamo"
+    "url" : "https://www.unacasainarmonia.it/courses"
   },
   {
-    "title":"CV",
-    "url" :"/progetti"
+    "title":"I miei servizi",
+    "url" :"https://www.unacasainarmonia.it/courses"
   },
   {
-    "title":"Faq",
-    "url" :"/faq"
+    "title":"Masterclass",
+    "url" :"https://www.unacasainarmonia.it/"
+  },
+  {
+    "title":"blog",
+    "url" :"https://www.unacasainarmonia.it/blog"
   },
   {
     "title":"Contattami",
-    "url" :"/contatti"
+    "url" :"https://www.unacasainarmonia.it/contattami"
   }
 ]

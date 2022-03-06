@@ -16,7 +16,7 @@
 }
 
 .menu-container{
-  background-color: #f5e9ff;
+  background-color: #545454;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -36,7 +36,7 @@
   min-height: 400px;
   height: 90%;
   border-radius: 32px;
-  background-color: #f1f1f1;
+  background-color: #ff1616;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 5%;
