@@ -14,7 +14,6 @@ interface HomeProps {
 class Home extends React.Component<HomeProps> {
     render() {
         return (<>
-
                 <div className={"home-first-viewed"}>
                     <div className={"inner-box"}>
                         <p>
@@ -52,13 +51,7 @@ class Home extends React.Component<HomeProps> {
                     <div className={"col2"}>
                         <div className={"image"}/>
                     </div>
-
                 </div>
-
-                {/*<div className={"wave-container"}>
-                    <img src={require("../assets/images/prova.png")} alt=""/>
-                </div>*/}
-
                 <div className={"risorse"}>
                     <p style={{fontSize: "38px"}}>LE MIE <span className={"grassetto"}>RISORSE</span> PER TE</p>
                     <div className={"text-container"}>
@@ -339,18 +332,6 @@ class Home extends React.Component<HomeProps> {
                         </div>
                     </div>
                 </div>
-                {/*<div className={"generic-block-3"}>
-                    <p>
-                        La <span className={"color-red"}>chiave</span> del tuo <span
-                        className={"color-black"}>successo</span> <br/>
-                        dipende da te!
-                    </p>
-                </div>
-                <ThisIsMe/>
-                <Block/>
-                <Advertisement/>
-                <InteriorDesignMasterclass/>*/
-                }
             </>
         )
     }
