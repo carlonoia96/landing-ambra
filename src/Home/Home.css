@@ -557,7 +557,7 @@
 }
 
 .home-first-viewed .box-1 .image {
-    background-image: url("../assets/images/ambra.png");
+    background-image: url("../assets/images/ambra.webp");
     background-size: calc(56vmin);
     background-repeat: no-repeat;
     background-position: left 10vmin;
