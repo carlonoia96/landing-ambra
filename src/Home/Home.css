@@ -44,13 +44,14 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/materialiTrends.png");
+    background-image: url("../../src/assets/images/materialiTrendsWaves.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -55px;
 }
 
 .generic-block-4 .text-container {
@@ -200,7 +201,7 @@
     justify-content: center;
 }
 
-.btn-scopri{
+.btn-scopri {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,6 +312,7 @@
     padding-left: 25px;
     padding-right: 25px;
 }
+
 .btn-scopri p {
     color: white;
     width: max-content;
@@ -777,6 +779,145 @@
     width: 70%;
 }
 
+.masterClass {
+    height: 200vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../../src/assets/images/sfondoMasterclass.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    background-color: #eff0f2;
+}
+
+.masterClass .slide1 .col1 .image {
+    background-image: url("../../src/assets/images/ioBW3.png");
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 100%;
+    z-index: 2;
+}
+
+.masterClass .slide1 .col2 .image {
+    background-image: url("../../src/assets/images/ipad.png");
+    background-size: contain;
+    background-position: center left;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    margin-left: -11%;
+    z-index: 1;
+}
+
+.masterClass .slide2 .image{
+    background-image: url("../../src/assets/images/pcMaster.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+}
+
+.masterClass .slide1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.masterClass .slide1 > div {
+    flex: 1;
+}
+
+.masterClass .slide1 .container {
+    flex: 2.5;
+}
+
+.masterClass .slide1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.masterClass .slide1 .container > div {
+    flex: 1;
+    height: 100%;
+}
+
+.masterClass .slide1 .col1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.masterClass .slide1 .col2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.masterClass .slide1 .text-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.masterClass .slide1 .containerT {
+    background-color: rgb(84 84 84 / 80%);;
+    width: 80%;
+    color: white;
+    padding: 30px;
+}
+
+.masterClass .slide2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.masterClass .slide2 > div {
+    flex: 1;
+}
+
+.masterClass .slide2 .col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7%;
+}
+
+.masterClass .slide2 .col2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+.masterClass .slide2 .text-container{
+    width: 65%;
+}
+
+
+
+
+/*
 .masterClass{
     background-image: url("../../src/assets/images/sfondoMaster.svg");
 }
@@ -798,18 +939,19 @@
 .masterClass .text-container{
     width: 55%;
 }
+ */
 
-.fine{
+.fine {
     background-image: url("../../src/assets/images/sfondoFine.png");
 }
 
-.fine .image{
+.fine .image {
     background-image: url("../../src/assets/images/ioColor2.png");
     height: 90%;
     width: 100%;
 }
 
-.fine .col1{
+.fine .col1 {
     flex: 1;
     height: 100%;
     display: flex;
@@ -817,14 +959,13 @@
     justify-content: center;
 }
 
-.fine .col2{
+.fine .col2 {
     flex: 1;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .fine .text-container {
     width: 60%;

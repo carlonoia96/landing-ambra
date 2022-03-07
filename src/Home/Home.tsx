@@ -258,7 +258,58 @@ class Home extends React.Component<HomeProps> {
                     </div>
                     <div className={"filtro-scurente position-absolute"}/>
                 </div>
-                <div className={"diventaInterior standard-size-row"}>
+                <div className={"masterClass"}>
+                    <div className={"slide1"}>
+                        <div className={"container"}>
+                            <div className={"col1"}>
+                                <div className={"image"}/>
+                            </div>
+                            <div className={"col2"}>
+                                <div className={"image"}/>
+                            </div>
+                        </div>
+                        <div className={"text-container"}>
+                            <div className={"containerT text-center"}>
+                                <p>
+                                    Hai voglia di diventare Interior Designer e incominciare a lavorare fin da subito ?!
+                                </p>
+                                <p>
+                                    Oggi puoi grazie a <span
+                                    className={"color-red grassetto"}> INTERIOR DESIGN MASTERCLASS</span>
+                                </p>
+                                <p>
+                                    scriviti oggie avrai accesso a tutto ciò di cui hai bisogno per creare spazi funzionali
+                                    , visivamente stupefacenti e stimolanti, in qualsiasi capacità il tuo cuore desideri!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={"slide2"}>
+                        <div className={"col1"}>
+                            <div className={"text-container text-center"}>
+                                <p style={{marginBottom: "30px"}}>
+                                    La masterclass, <br/>
+                                    partendo dalle basi, formerà una figura professionale a 360°, concentrandosi tanto
+                                    sull'aspetto
+                                    teorico quanto su quello pratico per raggiungere una solida conoscenza.
+                                </p>
+                                <p style={{marginBottom: "60px"}}>
+                                    Scopri se fa al caso tuo!
+                                </p>
+                                <div className={"btn btn-scopri"}>
+                                    <p>
+                                        Scopri i corsi
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={"col2"}>
+                            <div className={"image"}/>
+                        </div>
+                    </div>
+                </div>
+                {
+                    /*<div className={"diventaInterior standard-size-row"}>
                     <div className={"col1"}>
                         <div className={"image image-contain"}>
                             <p style={{marginTop: "-30%"}}>
@@ -286,29 +337,30 @@ class Home extends React.Component<HomeProps> {
                         </div>
                     </div>
                 </div>
-                <div className={"masterClass standard-size-row"}>
+                    <div className={"masterClass standard-size-row"}>
                     <div className={"col1"}>
-                        <div className={"text-container text-center"}>
-                            <p style={{marginBottom: "30px"}}>
-                                La masterclass, <br/>
-                                partendo dalle basi, formerà una figura professionale a 360°, concentrandosi tanto
-                                sull'aspetto
-                                teorico quanto su quello pratico per raggiungere una solida conoscenza.
-                            </p>
-                            <p style={{marginBottom: "60px"}}>
-                                Scopri se fa al caso tuo!
-                            </p>
-                            <div className={"btn btn-scopri"}>
-                                <p>
-                                    Scopri i corsi
-                                </p>
-                            </div>
-                        </div>
+                    <div className={"text-container text-center"}>
+                    <p style={{marginBottom: "30px"}}>
+                    La masterclass, <br/>
+                    partendo dalle basi, formerà una figura professionale a 360°, concentrandosi tanto
+                    sull'aspetto
+                    teorico quanto su quello pratico per raggiungere una solida conoscenza.
+                    </p>
+                    <p style={{marginBottom: "60px"}}>
+                    Scopri se fa al caso tuo!
+                    </p>
+                    <div className={"btn btn-scopri"}>
+                    <p>
+                    Scopri i corsi
+                    </p>
+                    </div>
+                    </div>
                     </div>
                     <div className={"col2"}>
-                        <div className={"image image-contain"}/>
+                    <div className={"image image-contain"}/>
                     </div>
-                </div>
+                    </div> */
+                }
                 <div className={"fine standard-size-row"}>
                     <div className={"col1"}>
                         <div className={"image image-contain"}/>
