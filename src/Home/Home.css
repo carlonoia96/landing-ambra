@@ -6,13 +6,14 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/scale.jpg");
-    background-position: center;
+    background-image: url("../../src/assets/images/scale.webp");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: -60px;
 }
 
 .generic-block-2 {
@@ -72,13 +73,14 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/garden.png");
-    background-position: bottom;
+    background-image: url("../../src/assets/images/garden.webp");
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -60px;
 }
 
 .lighting {
@@ -254,7 +256,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/prova.png");
+    background-image: url("../../src/assets/images/prova.webp");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -477,7 +479,7 @@
 .home-first-viewed {
     height: calc(100vh);
     overflow: hidden;
-    background-image: url("../../src/assets/images/AboutMe .png");
+    background-image: url("../../src/assets/images/AboutMe.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -555,7 +557,7 @@
 }
 
 .home-first-viewed .box-1 .image {
-    background-image: url("../assets/images/ambra.png");
+    background-image: url("../assets/images/ambra.webp");
     background-size: calc(56vmin);
     background-repeat: no-repeat;
     background-position: left 10vmin;

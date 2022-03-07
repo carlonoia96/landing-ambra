@@ -151,7 +151,7 @@ class Home extends React.Component<HomeProps> {
                             <span className={"color-red"}>design</span>.
                         </p>
                     </div>
-                    <div className={"filtro-scurente position-absolute"}/>
+                    {/*<div className={"filtro-scurente position-absolute"}/>*/}
                 </div>
                 <div className={"laurea"}>
                     <div className={"container"}>
@@ -200,7 +200,7 @@ class Home extends React.Component<HomeProps> {
                             <span className={"color-red grassetto"}>GARDEN DESIGN</span>
                         </p>
                     </div>
-                    <div className={"filtro-scurente position-absolute"}/>
+                    {/*<div className={"filtro-scurente position-absolute"}/>*/}
                 </div>
                 <div className={"generic-block-6"}>
                     <div className={"col1"}>
