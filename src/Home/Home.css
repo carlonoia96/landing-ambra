@@ -20,7 +20,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/sfondoIdeas.png");
+    background-image: url("../../src/assets/images/sfondoIdeas.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/scrivania.jpg");
+    background-image: url("../../src/assets/images/scrivania.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/materialiTrendsWaves.png");
+    background-image: url("../../src/assets/images/materialiTrendsWaves.webp");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +87,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/lighting.png");
+    background-image: url("../../src/assets/images/lighting.webp");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,7 +109,7 @@
 }
 
 .render {
-    background-image: url("../../src/assets/images/render.png");
+    background-image: url("../../src/assets/images/render.webp");
 }
 
 .garden .text-container,
@@ -133,7 +133,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/sfondo.png");
+    background-image: url("../../src/assets/images/sfondo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,11 +158,11 @@
 }
 
 .creo {
-    background-image: url("../../src/assets/images/sfondo.png");
+    background-image: url("../../src/assets/images/sfondo.webp");
 }
 
 .generic-block-5 .image {
-    background-image: url("../../src/assets/images/ioBW.png");
+    background-image: url("../../src/assets/images/ioBW.webp");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -187,7 +187,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/sfondo.png");
+    background-image: url("../../src/assets/images/sfondo.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,7 +210,7 @@
 }
 
 .generic-block-6 .image {
-    background-image: url("../../src/assets/images/realtaAbitative.png");
+    background-image: url("../../src/assets/images/realtaAbitative.webp");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
@@ -327,7 +327,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/sfondoBlog.png");
+    background-image: url("../../src/assets/images/sfondoBlog.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -339,7 +339,7 @@
 }
 
 .blog .col1 .image {
-    background-image: url("../../src/assets/images/computer.png");
+    background-image: url("../../src/assets/images/computer.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -391,7 +391,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/sfondoConsulenze.png");
+    background-image: url("../../src/assets/images/sfondoConsulenze.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -464,7 +464,7 @@
 }
 
 .generic-block-2 .image {
-    background-image: url("../../src/assets/images/ideas2.png");
+    background-image: url("../../src/assets/images/ideas2.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -610,7 +610,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../src/assets/images/sfondoLaurea.png");
+    background-image: url("../../src/assets/images/sfondoLaurea.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -662,7 +662,7 @@
 }
 
 .laurea .col1 .image {
-    background-image: url("../../src/assets/images/laurea.png");
+    background-image: url("../../src/assets/images/laurea.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -725,7 +725,7 @@
 }
 
 .creo .image {
-    background-image: url("../../src/assets/images/ioBW2.png");
+    background-image: url("../../src/assets/images/ioBW2.webp");
 }
 
 .creo .col2 {
@@ -751,7 +751,7 @@
 }
 
 .diventaInterior .image {
-    background-image: url("../../src/assets/images/ioColor.png");
+    background-image: url("../../src/assets/images/ioColor.webp");
     color: white;
     background-position: -70px;
     height: 100%;
@@ -798,7 +798,7 @@
 }
 
 .masterClass .slide1 .col1 .image {
-    background-image: url("../../src/assets/images/ioBW3.png");
+    background-image: url("../../src/assets/images/ioBW3.webp");
     background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -808,7 +808,7 @@
 }
 
 .masterClass .slide1 .col2 .image {
-    background-image: url("../../src/assets/images/ipad.png");
+    background-image: url("../../src/assets/images/ipad.webp");
     background-size: contain;
     background-position: center left;
     background-repeat: no-repeat;
@@ -819,7 +819,7 @@
 }
 
 .masterClass .slide2 .image{
-    background-image: url("../../src/assets/images/pcMaster.png");
+    background-image: url("../../src/assets/images/pcMaster.webp");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -944,11 +944,11 @@
  */
 
 .fine {
-    background-image: url("../../src/assets/images/sfondoFine.png");
+    background-image: url("../../src/assets/images/sfondoFine.webp");
 }
 
 .fine .image {
-    background-image: url("../../src/assets/images/ioColor2.png");
+    background-image: url("../../src/assets/images/ioColor2.webp");
     height: 90%;
     width: 100%;
 }
