@@ -28,6 +28,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-family: code-pro;
 }
 
 .generic-block-3 {
@@ -159,6 +160,7 @@
 
 .creo {
     background-image: url("../../src/assets/images/sfondo.png");
+    font-family: code-pro;
 }
 
 .generic-block-5 .image {
@@ -423,6 +425,10 @@
     margin-top: 30px;
 }
 
+.consulenze a{
+    color: unset;
+}
+
 .consulenze .btn p {
     background-color: #ff1616;
     border-radius: 15px;
@@ -607,7 +613,7 @@
 }
 
 .laurea {
-    height: 100vh;
+    height: 140vh;
     overflow: hidden;
     position: relative;
     background-image: url("../../src/assets/images/sfondoLaurea.png");
@@ -619,6 +625,7 @@
     justify-content: center;
     flex-direction: column;
     font-size: 24px;
+    padding-bottom: 10%;
 }
 
 .laurea .container {
