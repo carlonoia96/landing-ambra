@@ -56,7 +56,7 @@ class Menu extends React.Component<MenuProps> {
                         <p>
                             Rimaniamo in contatto 👇
                             <br />
-                            <a href="mailto: info@unacasainarmonia.it">info@unacasainarmonia.it</a>
+                            <a href="mailto: info@unacasainarmonia.it">info@internididesign.com</a>
                         </p>
                     </div>
                     <div className="menu-body menu-element">

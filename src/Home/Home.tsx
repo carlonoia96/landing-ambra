@@ -232,7 +232,7 @@ class Home extends React.Component<HomeProps> {
                 <div className={"lighting"}>
                     <div className={"text-container"}>
                         <p>
-                            Mi sto specializzando <br/>
+                            Mi sto specializzando in<br/>
                             <span className={"color-red grassetto"}>LIGHTING DESIGN</span>
                         </p>
                     </div>
@@ -258,7 +258,7 @@ class Home extends React.Component<HomeProps> {
                 <div className={"render image-slide"}>
                     <div className={"text-container"}>
                         <p>
-                            Mi sto specializzando <br/>
+                            Mi sto specializzando in<br/>
                             <span className={"color-red grassetto"}>AUTOCAD E TECNICHE DI RENDERING</span>
                         </p>
                     </div>
@@ -381,11 +381,14 @@ class Home extends React.Component<HomeProps> {
                             <p style={{marginTop: "30px"}}>
                                 Vai sulla mia pagina Instagram e capirai di cosa sto parlando.
                             </p>
-                            <div style={{marginTop: "60px"}} className={"btn btn-scopri"}>
-                                <p>
-                                    Visita
-                                </p>
-                            </div>
+                            <a href="https://www.instagram.com/internididesign/" target={"_blank"}>
+                                <div style={{marginTop: "60px"}} className={"btn btn-scopri"}>
+                                    <p>
+                                        Visita
+                                    </p>
+                                </div>
+                            </a>
+
                         </div>
                     </div>
                 </div>

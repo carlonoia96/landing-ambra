@@ -21,7 +21,7 @@ class Presentation extends React.Component {
                             A caratterizzarmi ci sono tanta passione, curiosità, responsabilità e sensibilità.
                         </p>
                         <p className={"text-center"}>
-                            Ho fondato <a className={"color-red"} href="https://www.instagram.com/internididesign/" target={"_blank"}>@Internididesign</a> per condividere con te consigli, tendenze e idee che ti ispireranno per
+                            Ho fondato <a className={"color-red"} href="https://www.instagram.com/internididesign/" target={"_blank"}>@internididesign</a> per condividere con te consigli, tendenze e idee che ti ispireranno per
                             creare un'atmosfera confortevole ed elegante nei tuoi ambienti. <br/>
                             Tutto questo attraverso un percorso che farà crescere le tue competenze step by step.
                         </p>
