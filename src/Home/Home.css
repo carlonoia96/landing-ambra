@@ -28,6 +28,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-family: code-pro;
 }
 
 .generic-block-3 {
@@ -159,6 +160,7 @@
 
 .creo {
     background-image: url("../../src/assets/images/sfondo.webp");
+    font-family: code-pro;
 }
 
 .generic-block-5 .image {
@@ -423,6 +425,10 @@
     margin-top: 30px;
 }
 
+.consulenze a{
+    color: unset;
+}
+
 .consulenze .btn p {
     background-color: #ff1616;
     border-radius: 15px;
@@ -444,7 +450,7 @@
 
 .generic-block-2 .col1 {
     flex: 1.5;
-    font-size: 35px;
+    font-size: 34px;
     text-align: center;
     padding: 10%;
 }
@@ -607,7 +613,7 @@
 }
 
 .laurea {
-    height: 100vh;
+    height: 140vh;
     overflow: hidden;
     position: relative;
     background-image: url("../../src/assets/images/sfondoLaurea.webp");
@@ -619,6 +625,7 @@
     justify-content: center;
     flex-direction: column;
     font-size: 24px;
+    padding-bottom: 10%;
 }
 
 .laurea .container {
@@ -747,7 +754,7 @@
 
 .creo .text-container {
     width: 500px;
-    font-size: 36px;
+    font-size: 34px;
 }
 
 .diventaInterior .image {

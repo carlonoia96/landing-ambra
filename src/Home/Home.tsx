@@ -28,7 +28,7 @@ class Home extends React.Component<HomeProps> {
                 <div className={"generic-block-4"}>
                     <div className={"text-container"}>
                         <p>
-                            Sono specializzata <br/>
+                            Mi sto specializzando <br/>
                             nello studio di<br/>
                             <span className={"color-red grassetto"}>MATERIALI & TRENDS</span>
                         </p>
@@ -60,7 +60,7 @@ class Home extends React.Component<HomeProps> {
                         </p>
                         <div className={"btn"}>
                             <p>
-                                Scopri i corsi
+                                Visita il mio canale Youtube
                             </p>
                         </div>
                     </div>
@@ -97,35 +97,41 @@ class Home extends React.Component<HomeProps> {
                     </div>
                 </div>
                 <div className={"consulenze"}>
-                    <p style={{fontSize: "38px"}}>LE MIE <span className={"grassetto"}>CONSULENZE</span> PER TE</p>
+                    <p style={{fontSize: "38px"}}>I MIEI <span className={"grassetto"}>SERVIZI</span> FUTURI</p>
 
                     <div className={"box-container"}>
                         <div className={"text-container"}>
                             <p>
                                 CONSULENZA D'ARREDO
                             </p>
-                            <div className={"btn"}>
-                                <p>
-                                    Scopri
-                                </p>
-                            </div>
+                            <a href="https://www.internididesign.com/consulenza" target={"_blank"}>
+                                <div className={"btn"}>
+                                    <p>
+                                        Scopri
+                                    </p>
+                                </div>
+                            </a>
+
                         </div>
 
                         <div className={"text-container"}>
                             <p>
                                 STYLING CALL
                             </p>
-                            <div className={"btn"}>
-                                <p>
-                                    Scopri
-                                </p>
-                            </div>
+                            <a href="https://www.internididesign.com/stylingcall" target={"_blank"}>
+                                <div className={"btn"}>
+                                    <p>
+                                        Scopri
+                                    </p>
+                                </div>
+                            </a>
+
                         </div>
                     </div>
 
                 </div>
                 <div className={"generic-block-2"}>
-                    <div className={"col1"}>
+                    <div className={"col1 "}>
                         <p>
                             <span className={"color-red"}>Insegno</span> a home lovers, architetti, interior designer o
                             aspiranti tali il potere di un buon
@@ -173,8 +179,8 @@ class Home extends React.Component<HomeProps> {
                                     pieno Covid-19 sviluppando la tesi sulle strategie per l'acquisizione e il
                                     mantenimento del potere di mercato. <br/>
                                     Ho maturato una spiccata propensione per l'<span
-                                    className={"grassetto"}>imprenditorialità</span> che tutt'ora mi aiuta e mi
-                                    accompagna nel sapere ben vendere e mostrare i miei progetti d'interni al cliente.
+                                    className={"grassetto"}>imprenditorialità</span> ed un conseguente avvicinamento allo studio del Digital Marketing {/*che tutt'ora mi aiuta e mi
+                                    accompagna nel sapere ben vendere e mostrare i miei progetti d'interni al cliente.*/}
                                 </p>
                             </div>
                         </div>
@@ -196,7 +202,7 @@ class Home extends React.Component<HomeProps> {
                 <div className={"garden"}>
                     <div className={"text-container"}>
                         <p>
-                            Sono specializzata in <br/>
+                            Mi sto specializzando <br/>
                             <span className={"color-red grassetto"}>GARDEN DESIGN</span>
                         </p>
                     </div>
@@ -211,11 +217,11 @@ class Home extends React.Component<HomeProps> {
                                 trasformandoli in<br/>
                                 <span className={"color-red"}>realtà abitative.</span>
                             </p>
-                            <div className={"btn"}>
+                            {/*<div className={"btn"}>
                                 <p>
                                     Scopri i corsi
                                 </p>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                     <div className={"col2"}>
@@ -226,7 +232,7 @@ class Home extends React.Component<HomeProps> {
                 <div className={"lighting"}>
                     <div className={"text-container"}>
                         <p>
-                            Sono specializzata in <br/>
+                            Mi sto specializzando in<br/>
                             <span className={"color-red grassetto"}>LIGHTING DESIGN</span>
                         </p>
                     </div>
@@ -252,7 +258,7 @@ class Home extends React.Component<HomeProps> {
                 <div className={"render image-slide"}>
                     <div className={"text-container"}>
                         <p>
-                            Sono specializzata in <br/>
+                            Mi sto specializzando in<br/>
                             <span className={"color-red grassetto"}>AUTOCAD E TECNICHE DI RENDERING</span>
                         </p>
                     </div>
@@ -274,12 +280,11 @@ class Home extends React.Component<HomeProps> {
                                     Hai voglia di diventare Interior Designer e incominciare a lavorare fin da subito ?!
                                 </p>
                                 <p>
-                                    Oggi puoi grazie a <span
-                                    className={"color-red grassetto"}> INTERIOR DESIGN MASTERCLASS</span>
+                                    <span
+                                    className={"color-red grassetto"}> INTERIOR DESIGN MASTERCLASS</span> <br/> è il progetto a cui sto lavorando!
                                 </p>
                                 <p>
-                                    scriviti oggie avrai accesso a tutto ciò di cui hai bisogno per creare spazi funzionali
-                                    , visivamente stupefacenti e stimolanti, in qualsiasi capacità il tuo cuore desideri!
+                                    Nel frattempo scopri quello che ho gia creato per te!
                                 </p>
                             </div>
                         </div>
@@ -376,11 +381,14 @@ class Home extends React.Component<HomeProps> {
                             <p style={{marginTop: "30px"}}>
                                 Vai sulla mia pagina Instagram e capirai di cosa sto parlando.
                             </p>
-                            <div style={{marginTop: "60px"}} className={"btn btn-scopri"}>
-                                <p>
-                                    Visita
-                                </p>
-                            </div>
+                            <a href="https://www.instagram.com/internididesign/" target={"_blank"}>
+                                <div style={{marginTop: "60px"}} className={"btn btn-scopri"}>
+                                    <p>
+                                        Visita
+                                    </p>
+                                </div>
+                            </a>
+
                         </div>
                     </div>
                 </div>
