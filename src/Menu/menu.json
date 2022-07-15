@@ -1,7 +1,7 @@
 [
   {
     "title":"Home",
-    "url" :"https://www.internididesign.com/"
+    "url" :"/"
   },
   {
     "title":"Chi sono",
@@ -9,6 +9,6 @@
   },
   {
     "title":"I miei corsi",
-    "url" : "https://www.internididesign.com/shop"
+    "url" : "/shop"
   }
 ]

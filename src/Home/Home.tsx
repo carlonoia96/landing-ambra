@@ -179,7 +179,8 @@ class Home extends React.Component<HomeProps> {
                                     pieno Covid-19 sviluppando la tesi sulle strategie per l'acquisizione e il
                                     mantenimento del potere di mercato. <br/>
                                     Ho maturato una spiccata propensione per l'<span
-                                    className={"grassetto"}>imprenditorialità</span> ed un conseguente avvicinamento allo studio del Digital Marketing {/*che tutt'ora mi aiuta e mi
+                                    className={"grassetto"}>imprenditorialità</span> ed un conseguente avvicinamento
+                                    allo studio del <span className={"grassetto"}>Digital Marketing</span>. {/*che tutt'ora mi aiuta e mi
                                     accompagna nel sapere ben vendere e mostrare i miei progetti d'interni al cliente.*/}
                                 </p>
                             </div>
@@ -202,7 +203,7 @@ class Home extends React.Component<HomeProps> {
                 <div className={"garden"}>
                     <div className={"text-container"}>
                         <p>
-                            Mi sto specializzando <br/>
+                            Mi sto specializzando in<br/>
                             <span className={"color-red grassetto"}>GARDEN DESIGN</span>
                         </p>
                     </div>
@@ -281,7 +282,8 @@ class Home extends React.Component<HomeProps> {
                                 </p>
                                 <p>
                                     <span
-                                    className={"color-red grassetto"}> INTERIOR DESIGN MASTERCLASS</span> <br/> è il progetto a cui sto lavorando!
+                                        className={"color-red grassetto"}> INTERIOR DESIGN MASTERCLASS</span> <br/> è il
+                                    progetto a cui sto lavorando!
                                 </p>
                                 <p>
                                     Nel frattempo scopri quello che ho gia creato per te!
@@ -301,11 +303,13 @@ class Home extends React.Component<HomeProps> {
                                 <p style={{marginBottom: "60px"}}>
                                     Scopri se fa al caso tuo!
                                 </p>
-                                <div className={"btn btn-scopri"}>
-                                    <p>
-                                        Scopri i corsi
-                                    </p>
-                                </div>
+                                <a href="https://www.internididesign.com/shop" target={"_blank"}>
+                                    <div className={"btn btn-scopri"}>
+                                        <p>
+                                            Scopri i corsi
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div className={"col2"}>
