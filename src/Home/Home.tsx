@@ -111,6 +111,12 @@ export default function Home(){
     const [showAnim, setShowAnim] = useState(false);
     const steps = 17;
 
+    const shoot = () => {
+        setPadding(2 * window.innerHeight);
+        setIndex(2);
+        setAnimation();
+    }
+
     const handlers = useSwipeable({
         onSwiped: (eventData) => {
             console.log("User Swiped!", eventData);
@@ -240,7 +246,7 @@ export default function Home(){
                                 <p>
                                     TIPS DI DESIGN
                                 </p>
-                                <div className={"btn"}>
+                                <div className={"btn"} onClick={shoot}>
                                     <p>
                                         Visita il mio canale Youtube
                                     </p>
