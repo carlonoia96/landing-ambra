@@ -108,12 +108,13 @@ export default function Home(){
     const [padding, setPadding] = useState(0);
     const [index, setIndex] = useState(0);
     const [showAnim, setShowAnim] = useState(false);
+    const steps = 17;
 
     const handlers = useSwipeable({
         onSwiped: (eventData) => {
             console.log("User Swiped!", eventData);
             if (eventData.dir === "Up") {
-                if (index === 17) {
+                if (index === steps) {
                     return false;
                 }
                 let newidnex = index + 1;
@@ -130,7 +131,7 @@ export default function Home(){
             }
         },
         onSwiping: (eventData) => {
-            if (index === 17 && eventData.dir === "Up") {
+            if (index === steps && eventData.dir === "Up") {
                 return;
             }
             if (eventData.first && eventData.dir === "Down") {
@@ -139,7 +140,7 @@ export default function Home(){
             if (index !== 0 && eventData.dir === "Down") {
                 setPadding(index * window.innerHeight - eventData.absY);
             }
-            if (index !== 17 && eventData.dir === "Up") {
+            if (index !== steps && eventData.dir === "Up") {
                 setPadding(index * window.innerHeight + eventData.absY);
             }
         }
@@ -157,8 +158,8 @@ export default function Home(){
             {(
                 <ReactScrollWheelHandler
                     preventScroll={true}
-                    upHandler={(e) => {
-                        if (index === 17) {
+                    downHandler={(e) => {
+                        if (index === steps) {
                             return false;
                         }
                         let newidnex = index + 1;
@@ -166,7 +167,7 @@ export default function Home(){
                         setPadding(newidnex * window.innerHeight);
                         setAnimation();
                     }}
-                    downHandler={(e) => {
+                    upHandler={(e) => {
                         if (index === 0) {
                             return false;
                         }
