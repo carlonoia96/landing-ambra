@@ -107,6 +107,7 @@ interface HomeProps {
 export default function Home(){
     const [padding, setPadding] = useState(0);
     const [index, setIndex] = useState(0);
+    const [click, setClick] = useState(false);
     const [showAnim, setShowAnim] = useState(false);
     const steps = 17;
 
@@ -154,7 +155,7 @@ export default function Home(){
     };
 
     return (
-        <div className="Scroll">
+        <div className="Scroll" style={{cursor:click?"grabbing":"grab"}}>
             {(
                 <ReactScrollWheelHandler
                     preventScroll={true}
@@ -175,6 +176,13 @@ export default function Home(){
                         setIndex(newidnex);
                         setPadding(newidnex * window.innerHeight);
                         setAnimation();
+                    }}
+                    onClick={(e)=>{
+                        setClick(false)
+                    }}
+
+                    onMouseDownCapture={(e)=>{
+                        setClick(true)
                     }}
                 >
                     <div
