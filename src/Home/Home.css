@@ -3,7 +3,7 @@
 }
 
 .generic-block-1 {
-    height: 100vh;
+    height: calc(100vh + 60px);
     overflow: hidden;
     position: relative;
     background-image: url("../../src/assets/images/scale.webp");
@@ -43,7 +43,7 @@
 }
 
 .generic-block-4 {
-    height: 100vh;
+    height: calc(100vh + 55px);
     overflow: hidden;
     position: relative;
     background-image: url("../../src/assets/images/materialiTrendsWaves.webp");
@@ -71,7 +71,7 @@
 }
 
 .garden {
-    height: 100vh;
+    height: calc(100vh + 70px);
     overflow: hidden;
     position: relative;
     background-image: url("../../src/assets/images/garden.webp");
@@ -255,7 +255,7 @@
 }
 
 .risorse {
-    height: 100vh;
+    height: calc(100vh + 30px);
     overflow: hidden;
     position: relative;
     background-image: url("../../src/assets/images/prova.webp");
@@ -613,7 +613,7 @@
 }
 
 .laurea {
-    height: 140vh;
+    height: calc(100vh - 10px);
     overflow: hidden;
     position: relative;
     background-image: url("../../src/assets/images/sfondoLaurea.webp");
@@ -625,7 +625,7 @@
     justify-content: center;
     flex-direction: column;
     font-size: 24px;
-    padding-bottom: 10%;
+    padding-bottom: 100px;
 }
 
 .laurea .container {
@@ -978,4 +978,8 @@
 
 .fine .text-container {
     width: 60%;
+}
+
+body {
+    overflow: hidden;
 }
