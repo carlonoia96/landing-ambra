@@ -6,6 +6,7 @@ import Block from "../Block/Block";
 import InteriorDesignMasterclass from "../Interior-design-masterclass/Interior-design-masterclass";
 import AboutMasterclass from "../About-masterclass/About-masterclass";
 import Presentation from "../Presentation/Presentation";
+import Scroll from "../Scroll/Scroll";
 
 interface HomeProps {
     setCurrentRoute: (menu: string) => void;
@@ -14,6 +15,7 @@ interface HomeProps {
 class Home extends React.Component<HomeProps> {
     render() {
         return (<>
+                <Scroll/>
                 <div className={"home-first-viewed"}>
                     <div className={"inner-box"}>
                         <p>
