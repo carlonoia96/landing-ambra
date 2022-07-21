@@ -46,7 +46,6 @@ class Menu extends React.Component<MenuProps> {
         document.body.style.paddingRight = (scrollbarWidth+'px');
         document.body.removeChild(scrollDiv);
 
-
         return (
             <div
                 className={`menu-container animate__animated animate__faster ${this.props.fade}`}

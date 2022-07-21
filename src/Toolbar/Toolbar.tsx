@@ -7,11 +7,21 @@ interface ToolbarProps {
     isMenuOpen: boolean;
     currentRoute: string;
     setCurrentRoute: (menu: string) => void;
+    index?:number;
 }
 
 class Toolbar extends React.Component<ToolbarProps> {
 
     render() {
+
+        let invertColor=0;
+        if(this.props.index==1 || this.props.index==5 || this.props.index==15 || this.props.index==16){
+            invertColor=1
+        }
+        else{
+            invertColor=0;
+        }
+
         return (
             <div className="toolbar">
                 <Link className="logo-container" to={'/'}>
@@ -19,7 +29,7 @@ class Toolbar extends React.Component<ToolbarProps> {
                     <p>Interior Design Specialist</p>
                 </Link>
                 <div className="menu-indicator-container">
-                    <label id="menu-label" className="animate__animated animate__faster animate__fadeIn"
+                    <label id="menu-label" className={`animate__animated animate__faster animate__fadeIn ${(invertColor?"black":"white")}`}
                            onClick={this.props.toggleMenu}>
                         {this.props.currentRoute}
                     </label>

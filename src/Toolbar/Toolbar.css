@@ -74,3 +74,12 @@
     height: 82px;
   }
 }
+
+
+.black{
+  color: black !important;
+}
+
+.white{
+  color: white !important;
+}

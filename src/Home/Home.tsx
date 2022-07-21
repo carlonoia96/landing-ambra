@@ -11,7 +11,7 @@ import {useSwipeable} from "react-swipeable";
 import ReactScrollWheelHandler from "react-scroll-wheel-handler";
 
 interface HomeProps {
-    setCurrentRoute: (menu: string) => void;
+    setCurrentRoute: boolean
 }
 
 // class Home extends React.Component<HomeProps> {
@@ -104,7 +104,7 @@ interface HomeProps {
 //     }
 // }
 
-export default function Home(){
+export default function Home(stato: any){
     const [padding, setPadding] = useState(0);
     const [index, setIndex] = useState(0);
     const [click, setClick] = useState(false);
@@ -173,7 +173,12 @@ export default function Home(){
                         setIndex(newidnex);
                         setPadding(newidnex * window.innerHeight);
                         setAnimation();
+                        if(newidnex==1 || newidnex==5 || newidnex==15 || newidnex==16){
+                            const todo=""
+                        }
+                        stato.stato.index=newidnex;
                     }}
+
                     upHandler={(e) => {
                         if (index === 0) {
                             return false;
@@ -182,11 +187,12 @@ export default function Home(){
                         setIndex(newidnex);
                         setPadding(newidnex * window.innerHeight);
                         setAnimation();
+                        stato.stato.index=newidnex;
                     }}
+
                     onClick={(e)=>{
                         setClick(false)
                     }}
-
                     onMouseDownCapture={(e)=>{
                         setClick(true)
                     }}

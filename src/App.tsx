@@ -16,12 +16,13 @@ interface AppState {
     isMenuOpen: boolean;
     fade?: string;
     currentRoute: string;
+    index?:number
 }
 
 class App extends React.Component<{}, AppState> {
     constructor(props: any) {
         super(props);
-        this.state = {isMenuOpen: false, currentRoute: 'Home'};
+        this.state = {isMenuOpen: false, currentRoute: 'Home', index:0};
     }
 
     toggleMenu = () => {
@@ -51,6 +52,7 @@ class App extends React.Component<{}, AppState> {
                 isMenuOpen={this.state.isMenuOpen}
                 currentRoute={this.state.currentRoute}
                 setCurrentRoute={this.setCurrentRoute}
+                index={this.state.index}
             />
             {
                 this.state.isMenuOpen &&
@@ -63,7 +65,7 @@ class App extends React.Component<{}, AppState> {
             }
             <div className={'container'}>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
+                    <Route path="/" element={<Home stato={this.state}/>}/>
                     <Route path="/next" element={<Home/>}/>
                     {/*<Route path="/*" element={<Page404/>}/>*/}
                 </Routes>
