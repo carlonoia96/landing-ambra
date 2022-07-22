@@ -9,9 +9,12 @@ import Presentation from "../Presentation/Presentation";
 import Scroll from "../Scroll/Scroll";
 import {useSwipeable} from "react-swipeable";
 import ReactScrollWheelHandler from "react-scroll-wheel-handler";
+import App from "../App"
 
 interface HomeProps {
-    setCurrentRoute: boolean
+    setCurrentRoute: (menu: string) => void;
+    setCurrentIndex:(index:number) => void;
+    stato:any;
 }
 
 // class Home extends React.Component<HomeProps> {
@@ -104,7 +107,7 @@ interface HomeProps {
 //     }
 // }
 
-export default function Home(stato: any){
+export default function Home(config: HomeProps){
     const [padding, setPadding] = useState(0);
     const [index, setIndex] = useState(0);
     const [click, setClick] = useState(false);
@@ -127,6 +130,7 @@ export default function Home(stato: any){
                 let newidnex = index + 1;
                 setIndex(newidnex);
                 setPadding(newidnex * window.innerHeight);
+                config.setCurrentIndex(newidnex)
             }
             if (eventData.dir === "Down") {
                 if (index === 0) {
@@ -135,6 +139,7 @@ export default function Home(stato: any){
                 let newidnex = index - 1;
                 setIndex(newidnex);
                 setPadding(newidnex * window.innerHeight);
+                config.setCurrentIndex(newidnex)
             }
         },
         onSwiping: (eventData) => {
@@ -176,7 +181,8 @@ export default function Home(stato: any){
                         if(newidnex==1 || newidnex==5 || newidnex==15 || newidnex==16){
                             const todo=""
                         }
-                        stato.stato.index=newidnex;
+                        config.stato.index=newidnex;
+                        config.setCurrentIndex(newidnex)
                     }}
 
                     upHandler={(e) => {
@@ -187,7 +193,8 @@ export default function Home(stato: any){
                         setIndex(newidnex);
                         setPadding(newidnex * window.innerHeight);
                         setAnimation();
-                        stato.stato.index=newidnex;
+                        config.stato.index=newidnex;
+                        config.setCurrentIndex(newidnex)
                     }}
 
                     onClick={(e)=>{
