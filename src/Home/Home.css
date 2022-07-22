@@ -980,6 +980,6 @@
     width: 60%;
 }
 
-body {
-    overflow: hidden;
+body::-webkit-scrollbar {
+    display: none;
 }
