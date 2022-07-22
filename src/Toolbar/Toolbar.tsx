@@ -7,7 +7,7 @@ interface ToolbarProps {
     isMenuOpen: boolean;
     currentRoute: string;
     setCurrentRoute: (menu: string) => void;
-    index?:number;
+    index:number;
 }
 
 class Toolbar extends React.Component<ToolbarProps> {

@@ -16,7 +16,7 @@ interface AppState {
     isMenuOpen: boolean;
     fade?: string;
     currentRoute: string;
-    index?:number
+    index:number
 }
 
 class App extends React.Component<{}, AppState> {
