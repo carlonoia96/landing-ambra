@@ -46,7 +46,6 @@ class App extends React.Component<{}, AppState> {
     }
 
     setCurrentIndex = (index:number) => {
-        const todo = ""
         this.setState({index})
     }
 
@@ -70,7 +69,7 @@ class App extends React.Component<{}, AppState> {
             }
             <div className={'container'}>
                 <Routes>
-                    <Route path="/" element={<Home setCurrentRoute={this.setCurrentRoute} stato={this.state} setCurrentIndex={this.setCurrentIndex}/>}/>
+                    <Route path="/" element={<Home setCurrentRoute={this.setCurrentRoute} state={this.state} setCurrentIndex={this.setCurrentIndex}/>}/>
                     {/*<Route path="/next" element={<Home/>}/>*/}
                     {/*<Route path="/*" element={<Page404/>}/>*/}
                 </Routes>

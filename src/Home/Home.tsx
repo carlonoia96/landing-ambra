@@ -14,7 +14,7 @@ import App from "../App"
 interface HomeProps {
     setCurrentRoute: (menu: string) => void;
     setCurrentIndex:(index:number) => void;
-    stato:any;
+    state:any;
 }
 
 // class Home extends React.Component<HomeProps> {
@@ -181,7 +181,7 @@ export default function Home(config: HomeProps){
                         if(newidnex==1 || newidnex==5 || newidnex==15 || newidnex==16){
                             const todo=""
                         }
-                        config.stato.index=newidnex;
+                        config.state.index=newidnex;
                         config.setCurrentIndex(newidnex)
                     }}
 
@@ -193,7 +193,7 @@ export default function Home(config: HomeProps){
                         setIndex(newidnex);
                         setPadding(newidnex * window.innerHeight);
                         setAnimation();
-                        config.stato.index=newidnex;
+                        config.state.index=newidnex;
                         config.setCurrentIndex(newidnex)
                     }}
 
