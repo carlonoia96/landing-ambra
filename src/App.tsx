@@ -5,7 +5,9 @@ import Toolbar from './Toolbar/Toolbar';
 import Menu from './Menu/Menu';
 import {Routes, Route} from 'react-router-dom';
 import Home from './Home/Home';
-
+// @ts-ignore
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const FADE = {
     IN: 'animate__slideInDown',
@@ -16,6 +18,7 @@ interface AppState {
     isMenuOpen: boolean;
     fade?: string;
     currentRoute: string;
+    showCursor?: boolean;
 }
 
 class App extends React.Component<{}, AppState> {
@@ -23,6 +26,31 @@ class App extends React.Component<{}, AppState> {
         super(props);
         this.state = {isMenuOpen: false, currentRoute: 'Home'};
     }
+
+    componentDidMount(){
+        AOS.init({
+            // initialise with other settings
+            duration : 1000
+        });
+        window.addEventListener("scroll", this.onScroll);
+    }
+
+    onScroll = () => {
+        let heightToHideFrom = (document.body.scrollHeight  * 0.55);
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+
+        if (winScroll > heightToHideFrom) {
+            this.setState({showCursor:false});
+        } else {
+            this.setState({showCursor:true});
+        }
+    };
+
+    componentWillUnmount() {
+        window.removeEventListener("scroll", this.onScroll);
+    }
+
 
     toggleMenu = () => {
         if (this.state.isMenuOpen) {
