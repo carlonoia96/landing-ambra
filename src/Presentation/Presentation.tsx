@@ -6,9 +6,7 @@ class Presentation extends React.Component {
         return (
             <>
                 <div className={"presentation"}>
-                    <div className={"col1"}
-                         data-aos="fade-right"
-                         data-aos-duration="1000">
+                    <div className={"col1"}>
                         <p className={"title text-center"}>
                             <span className={"fs-35"}>Ciao, sono <span className={"color-red"}>Ambra Garuffi</span> </span> <br/>
                             interior & social designer specialist
@@ -28,9 +26,7 @@ class Presentation extends React.Component {
                             Tutto questo attraverso un percorso che farà crescere le tue competenze step by step.
                         </p>
                     </div>
-                    <div className={"col2"}
-                         data-aos="fade-up"
-                         data-aos-duration="1000">
+                    <div className={"col2"}>
                         <div className={"immage"}/>
                     </div>
                 </div>
