@@ -1,75 +1,117 @@
 
 .img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media only screen and (max-width: 441px) {
-    html {
-        font-size: 16px;
-    }
-
-    .first-block {
-        height: calc(100vh + 13rem);
-    }
-
-    .first-block .container {
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .first-block .img:first-child {
-        background-image: url('../assets/images/logo-home-mobile.webp');
-        margin-top: 10rem;
-        width: 100%;
-        height: 10rem;
-    }
-
-    /* .first-block .img:last-child {
-         background-image: url('../assets/images/ambra-home-mobile.webp');
-     }*/
-    .first-block img {
-        height: auto;
-        width: 100%;
-    }
 
 
-    .block-2 {
-        margin-top: 4rem;
-        margin-right: 3rem;
-        margin-left: 3rem;
-    }
+  .first-block {
+    height: calc(100vh + 13rem);
+  }
 
-    .block-2 .title {
-        font-size: 1.5rem;
-    }
+  .first-block .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
 
-    .block-2 .img {
-        background-image: url('../assets/images/idd.webp');
-        height: 6rem;
-        width: 100%;
-    }
+  .first-block .img:first-child {
+    background-image: url('../assets/images/logo-home-mobile.webp');
+    margin-top: 10rem;
+    width: 100%;
+    height: 10rem;
+  }
 
-    .block-2 .btn {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  /* .first-block .img:last-child {
+       background-image: url('../assets/images/ambra-home-mobile.webp');
+   }*/
+  .first-block img {
+    height: auto;
+    width: 100%;
+  }
 
-    .block-2 .btn p {
-        padding: 1rem;
-        border-radius: 1rem;
-        width: 15rem;
-    }
 
-    .block-2 p:nth-child(3){
-        margin-top: 3rem;
-        margin-bottom: 5rem;
-    }
+  .block-2 {
+    margin-top: 4rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .block-2 .title {
+    font-size: 1.5rem;
+  }
+
+  .block-2 .img {
+    background-image: url('../assets/images/idd.webp');
+    height: 6rem;
+    width: 100%;
+  }
+
+  .block-2 .btn {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block-2 .btn p {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 15rem;
+  }
+
+  .block-2 p:nth-child(3) {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .block-3 .img:first-child {
+    background-image: url('../assets/images/ambra-cerchio.webp');
+    height: 15rem;
+    margin-bottom: 5rem;
+  }
+
+  .block-3 .img:last-child {
+    background-image: url('../assets/images/lampadin1.webp');
+    background-size: 26rem;
+    padding-top: 2rem;
+    background-position: top;
+    height: 23rem;
+  }
+
+  .block-3 .container {
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .block-4 .img {
+    background-image: url('../assets/images/ambra-lampadine1.webp');
+    height: 40rem;
+    background-position: bottom;
+  }
+
+  .block-5 {
+    padding-top: 5rem;
+  }
+
+  .block-5 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .postCard {
+    margin-bottom: 5rem;
+  }
+
+  .postCard p{
+    margin-top: 1rem;
+  }
 }
