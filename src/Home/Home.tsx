@@ -66,7 +66,7 @@ class Home extends React.Component<HomeProps> {
         </div>
         <div className={"block-5 bk-gray"}>
           <div className={"container"}>
-            <div className={"postCard bk-white"}>
+            <div className={"postCard bk-white postCard-1"}>
               <div className={"container bk-red"}>
                 <div className={"img"}/>
               </div>
@@ -77,7 +77,7 @@ class Home extends React.Component<HomeProps> {
               </p>
             </div>
 
-            <div className={"postCard bk-white"}>
+            <div className={"postCard bk-white postCard-2"}>
               <div className={"container bk-red"}>
                 <div className={"img"}/>
               </div>
@@ -89,7 +89,7 @@ class Home extends React.Component<HomeProps> {
               </p>
             </div>
 
-            <div className={"postCard bk-white"}>
+            <div className={"postCard bk-white postCard-3"}>
               <div className={"container bk-red"}>
                 <div className={"img"}/>
               </div>
@@ -103,12 +103,11 @@ class Home extends React.Component<HomeProps> {
           </div>
         </div>
         <div className={"block-6"}>
-          <div>
+          <div className={"container text-align-center"}>
             <p>
               <span className={"red"}>Aiuto</span> le persone a vivere in <span
               className={"red"}>armonia</span> nella propria <span className={"red"}>casa</span>.
-            </p>
-            <p>
+              <br/><br/>
               La mia <span className={"red"}>mission</span> è coniugare funzionalità e confort abitativo
               con il gusto estetico.
             </p>

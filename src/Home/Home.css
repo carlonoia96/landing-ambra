@@ -105,6 +105,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .postCard {
@@ -114,4 +115,31 @@
   .postCard p{
     margin-top: 1rem;
   }
+
+  .block-5 .postCard-1 .img{
+    background-image: url('../assets/images/gif.gif');
+  }
+
+  .block-5 .postCard-2 .img{
+    background-image: url('../assets/images/Double_Horizontal_3.webp');
+  }
+
+  .block-5 .postCard-3 .img{
+    background-image: url('../assets/images/3k _ Free iMac Photoshop.webp');
+  }
+
+  .block-6 .container{
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+  }
+
+  .block-6 .img{
+    background-image: url('../assets/images/ambra-bw.webp');
+    height: 30rem;
+
+  }
+
+
 }
