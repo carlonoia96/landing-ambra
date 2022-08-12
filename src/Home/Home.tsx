@@ -9,6 +9,7 @@ import Presentation from "../Presentation/Presentation";
 
 //immagini
 import ambraHomeMobile from '../assets/images/ambra-home-mobile.webp'
+import pareteVerde from '../assets/images/risorse.webp'
 
 interface HomeProps {
   setCurrentRoute: (menu: string) => void;
@@ -115,16 +116,16 @@ class Home extends React.Component<HomeProps> {
           <div className={"img"}/>
         </div>
         <div className={"block-7"}>
-          <div className={"img"}/>
-          <div>
+          <img src={pareteVerde} alt="pareteVerde"/>
+          <div className={"container text-align-center"}>
             <div className={"img"}/>
-            <p>
+            <p className={"white"}>
               Ti fornisco la chiave giusta per creare interni emozionali
             </p>
           </div>
         </div>
         <div className={"block-8"}>
-          <div>
+          <div className={"container"}>
             <div className={"postCard bk-white"}>
               <div className={"container bk-red"}>
                 <div className={"img"}/>
