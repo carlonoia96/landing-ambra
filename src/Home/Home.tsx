@@ -20,7 +20,7 @@ class Home extends React.Component<HomeProps> {
                 <div className={"first-block"}>
                     <div className={"container"}>
                         <div className={"img"}/>
-                        <img src={ambraHomeMobile} alt="Logo" />
+                        <img src={ambraHomeMobile} alt="Logo"/>
                     </div>
                 </div>
                 <div className={"block-2"}>
@@ -29,20 +29,22 @@ class Home extends React.Component<HomeProps> {
                         <br/> sono <span className={"red"}>Ambra Garuffi</span>
                     </p>
                     <div className={"img"}/>
-                    <p>
-                        Le mie conoscenze provengono da Milano, nel cuore pulsante del design italiano per eccellenza.
-                        <br/>
-                        Attualmente sono ancora in formazione e potrò affinare il mio sapere grazie ai migliori docenti
+
+                    <p className={"text-align-center"}>
+                        Le mie conoscenze provengono da <span className={"red"}>Milano</span>, nel cuore pulsante del design italiano per
+                        eccellenza.
+                        <br/><br/>
+                        Attualmente sono ancora in formazione e potrò affinare il mio sapere grazie ai migliori
+                        docenti
                         per ottenere
                         tutte le nozioni fondamentali per poter svolgere un ottimo progetto di Interior Design.
-                    </p>
-                    <p>
+                        <br/><br/>
                         A caratterizzarmi ci sono tanta <span className={"bold"}>passione, curiosità, responsabilità e sensibilità</span> per
                         ciò che
                         faccio.
                     </p>
-                    <div className={"btn"}>
-                        <p>Scopri di più su di me</p>
+                    <div className={"btn text-align-center "}>
+                        <p className={"white bk-red"}>Scopri di più su di me</p>
                     </div>
                 </div>
                 <div className={"block-3"}>
