@@ -421,3 +421,47 @@ button:hover {
     }
 }
 
+/*------------------------NEW------------------------*/
+*{
+    font-family: 'code-pro' !important;
+}
+
+.white{
+    color: white;
+}
+
+.red{
+    color:#ff1616
+}
+
+.bk-red{
+    background-color: #ff1616;
+}
+
+.bk-darkGray{
+    background-color: #545454;
+}
+
+.gray{
+    color: #cccccc;
+}
+
+.bk-gray{
+    background-color: #cccccc;
+}
+
+.bk-white{
+    background-color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.title{
+    font-size: 1.5rem;
+}

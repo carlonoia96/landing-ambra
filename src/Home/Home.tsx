@@ -7,6 +7,9 @@ import InteriorDesignMasterclass from "../Interior-design-masterclass/Interior-d
 import AboutMasterclass from "../About-masterclass/About-masterclass";
 import Presentation from "../Presentation/Presentation";
 
+//immagini
+import ambraHomeMobile from '../assets/images/ambra-home-mobile.webp'
+
 interface HomeProps {
     setCurrentRoute: (menu: string) => void;
 }
@@ -15,11 +18,14 @@ class Home extends React.Component<HomeProps> {
     render() {
         return (<>
                 <div className={"first-block"}>
-
+                    <div className={"container"}>
+                        <div className={"img"}/>
+                        <img src={ambraHomeMobile} alt="Logo" />
+                    </div>
                 </div>
                 <div className={"block-2"}>
-                    <p>
-                        Ciao
+                    <p className={"title"}>
+                        Ciao,
                         <br/> sono <span className={"red"}>Ambra Garuffi</span>
                     </p>
                     <div className={"img"}/>

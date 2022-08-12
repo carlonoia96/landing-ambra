@@ -74,3 +74,8 @@
     height: 82px;
   }
 }
+
+
+.logo-container{
+  opacity: 0;
+}
