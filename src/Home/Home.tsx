@@ -119,11 +119,11 @@ class Home extends React.Component<HomeProps> {
           <div className={"img"}/>
         </div>
         <div className={"block-7"}>
-          <img src={pareteVerde} alt="pareteVerde"/>
+          <img className={"hide-on-desktop"} src={pareteVerde} alt="pareteVerde"/>
           <div className={"container text-align-center"}>
             <div className={"img"}/>
             <p className={"white"}>
-              Ti fornisco la chiave giusta per creare interni emozionali
+              Ti fornisco la <span className={"bold"}>chiave</span> giusta per creare interni emozionali
             </p>
           </div>
         </div>
