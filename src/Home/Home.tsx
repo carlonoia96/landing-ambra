@@ -182,6 +182,22 @@ class Home extends React.Component<HomeProps> {
             </div>
           </div>
         </div>
+        <div className={"block-11 bk-gray"}>
+          <div className={"container"}>
+            <div className={"postCard bk-white postCard-1"}>
+              <div className={"container bk-red"}>
+                <div className={"img"}/>
+              </div>
+              <p className={"text-align-center"}>
+                Le tue <span className={"bold"}>guide gratuite</span> per arredare al meglio casa, ti aspettano!
+                Non perdere questa occasione!
+              </p>
+              <div className={"btn text-align-center"}>
+                <p className={"white bk-red"}>Scarica ora</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </>
     )
   }

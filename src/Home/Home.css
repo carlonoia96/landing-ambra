@@ -252,6 +252,20 @@
     margin-bottom: 5rem;
     margin-top: 5rem;
   }
+  .block-11{
+    background-image: url('../assets/images/scaricaGuideSfondo.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25.5rem;
+    height: 52rem;
+    padding-top: 5rem;
+  }
 
+  .block-11>.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
 
 }
