@@ -152,7 +152,7 @@ class Home extends React.Component<HomeProps> {
           </div>
         </div>
         <div className={"block-9"}>
-          <img src={contattamiMobile} alt="contattamiMobile"/>
+          <img className={"hide-on-desktop"} src={contattamiMobile} alt="contattamiMobile"/>
           <div className={"container"}>
             <p className={"white"}>
               Hai bisogno?
