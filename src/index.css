@@ -502,6 +502,10 @@ button:hover {
   width: 10rem;
 }
 
+html {
+  font-size: 28px;
+}
+
 @media only screen and (max-width: 768px) {
   html {
     font-size: 16px;
@@ -510,5 +514,17 @@ button:hover {
   .postCard {
     width: 21rem;
     font-size: 1rem;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 769px) {
+  .hide-on-desktop {
+    display: none;
   }
 }

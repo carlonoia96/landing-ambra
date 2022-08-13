@@ -5,6 +5,102 @@
   background-size: contain;
 }
 
+.first-block img {
+  height: auto;
+  width: 100%;
+}
+
+.block-2 .img {
+  background-image: url('../assets/images/idd.webp');
+  height: 6rem;
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 442px) {
+
+  .first-block {
+    height: auto;
+  }
+
+  .first-block .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .first-block .img:first-child {
+    background-image: url('../assets/images/logo-home-mobile.webp');
+    margin-top: 6rem;
+    width: 21rem;
+    height: 14rem;
+    margin-bottom: -10rem;
+    margin-left: 51%;
+
+  }
+
+  .block-2 .img:last-child {
+    background-image: url('../assets/images/ambra-cerchio.webp');
+    height: 15rem;
+  }
+
+  .block-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  .block-2 > div:first-child {
+    width: 60%;
+  }
+
+  .block-2 > div:last-child {
+    width: 40%;
+  }
+
+  .block-2 > .container .img + .text-align-center {
+    text-align: unset;
+    margin-top: 2rem;
+  }
+
+  .block-2 .img {
+    width: 20rem;
+  }
+
+  .block-2 .btn {
+    margin-top: 16rem;
+  }
+
+  .block-2 .btn p {
+    width: 15rem;
+  }
+
+  .block-3 {
+    height: 38rem;
+    background-color: #cccccc;
+  }
+
+  .block-3 {
+    background-image: url('../assets/images/ambra-lampadine.webp');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5rem;
+  }
+
+  .block-3>.container{
+    width: 23rem;
+    padding-top: 15rem;
+    margin-left: 23%;
+  }
+
+}
+
+
 @media only screen and (max-width: 441px) {
 
 
@@ -30,12 +126,6 @@
   /* .first-block .img:last-child {
        background-image: url('../assets/images/ambra-home-mobile.webp');
    }*/
-  .first-block img {
-    height: auto;
-    width: 100%;
-  }
-
-
   .block-2 {
     margin-top: 4rem;
     margin-right: 3rem;
@@ -47,8 +137,6 @@
   }
 
   .block-2 .img {
-    background-image: url('../assets/images/idd.webp');
-    height: 6rem;
     width: 100%;
   }
 
@@ -167,7 +255,7 @@
     padding: 2rem;
   }
 
-  .block-7 .img{
+  .block-7 .img {
     height: 5rem;
     width: 12.1rem;
     position: absolute;
@@ -175,21 +263,21 @@
     background-image: url('../assets/images/new-logo2.webp');
   }
 
-  .block-8 .postCard-1 .img{
+  .block-8 .postCard-1 .img {
     background-image: url('../assets/images/ig.webp');
     background-size: 85%;
   }
 
-  .block-8>.container{
+  .block-8 > .container {
     padding-top: 5rem;
   }
 
-  .block-9{
+  .block-9 {
     position: relative;
     padding-top: 5rem;
   }
 
-  .block-9 img{
+  .block-9 img {
     height: auto;
     width: 100%;
   }
@@ -207,7 +295,7 @@
     width: 10rem;
   }
 
-  .block-9 .container{
+  .block-9 .container {
     position: absolute;
     top: 37%;
     left: 50%;
@@ -216,11 +304,11 @@
     align-items: center;
   }
 
-  .block-9 .container>p{
+  .block-9 .container > p {
     font-size: 1.5rem;
   }
 
-  .block-10{
+  .block-10 {
     background-image: url('../assets/images/sfondoConsulenze.webp');
     height: 100vh;
     background-repeat: no-repeat;
@@ -233,11 +321,11 @@
     justify-content: center;
   }
 
-  .block-10 >p{
+  .block-10 > p {
     font-size: 1.5rem;
   }
 
-  .block-10 .container>div {
+  .block-10 .container > div {
     height: 10rem;
     width: 16rem;
     background-color: #32323299;
@@ -248,11 +336,12 @@
     flex-direction: column;
   }
 
-  .block-10 .container>div:first-child{
+  .block-10 .container > div:first-child {
     margin-bottom: 5rem;
     margin-top: 5rem;
   }
-  .block-11{
+
+  .block-11 {
     background-image: url('../assets/images/scaricaGuideSfondo.webp');
     background-repeat: no-repeat;
     background-position: center;
@@ -261,7 +350,7 @@
     padding-top: 5rem;
   }
 
-  .block-11>.container{
+  .block-11 > .container {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -3,6 +3,7 @@ import './Home.css';
 
 //immagini
 import ambraHomeMobile from '../assets/images/ambra-home-mobile.webp'
+import ambraHome from '../assets/images/ambra-home.webp'
 import pareteVerde from '../assets/images/risorse.webp'
 import contattamiMobile from '../assets/images/contattami-mobile.webp'
 
@@ -16,43 +17,50 @@ class Home extends React.Component<HomeProps> {
         <div className={"first-block"}>
           <div className={"container"}>
             <div className={"img"}/>
-            <img src={ambraHomeMobile} alt="Logo"/>
+            <img className={"hide-on-desktop"} src={ambraHomeMobile} alt="Logo"/>
+            <img className={"hide-on-mobile"} src={ambraHome} alt="Logo"/>
           </div>
         </div>
         <div className={"block-2"}>
-          <p className={"title"}>
-            Ciao,
-            <br/> sono <span className={"red"}>Ambra Garuffi</span>
-          </p>
-          <div className={"img"}/>
-
-          <p className={"text-align-center"}>
-            Le mie conoscenze provengono da <span className={"red"}>Milano</span>, nel cuore pulsante del design
-            italiano per
-            eccellenza.
-            <br/><br/>
-            Attualmente sono ancora in formazione e potrò affinare il mio sapere grazie ai migliori
-            docenti
-            per ottenere
-            tutte le nozioni fondamentali per poter svolgere un ottimo progetto di Interior Design.
-            <br/><br/>
-            A caratterizzarmi ci sono tanta <span
-            className={"bold"}>passione, curiosità, responsabilità e sensibilità</span> per
-            ciò che
-            faccio.
-          </p>
-          <div className={"btn text-align-center "}>
-            <p className={"white bk-red"}>Scopri di più su di me</p>
+          <div className={"container"}>
+            <p className={"title"}>
+              Ciao,
+              <br/> sono <span className={"red"}>Ambra Garuffi</span>
+            </p>
+            <div className={"img"}/>
+            <p className={"text-align-center"}>
+              Le mie conoscenze provengono da <span className={"red"}>Milano</span>, nel cuore pulsante del design
+              italiano per
+              eccellenza.
+              <br/><br/>
+              Attualmente sono ancora in formazione e potrò affinare il mio sapere grazie ai migliori
+              docenti
+              per ottenere
+              tutte le nozioni fondamentali per poter svolgere un ottimo progetto di Interior Design.
+              <br/><br/>
+              A caratterizzarmi ci sono tanta <span
+              className={"bold"}>passione, curiosità, responsabilità e sensibilità</span> per
+              ciò che
+              faccio.
+            </p>
+            <div className={"btn text-align-center hide-on-desktop"}>
+              <p className={"white bk-red"}>Scopri di più!</p>
+            </div>
+          </div>
+          <div className={"img hide-on-mobile"}>
+            <div className={"btn text-align-center "}>
+              <p className={"white bk-red"}>Scopri di più!</p>
+            </div>
           </div>
         </div>
         <div className={"block-3"}>
           <div className={"img"}/>
           <div className={"container img text-align-center"}>
             <p>
-              Oggi insegno a home lovers, architetti, interior designer o aspiranti tali il potere di un
+              Oggi <span className={"red"}>insegno</span> a home lovers, architetti, interior designer o aspiranti tali il potere di un
               buon progetto d'interni.
               <br/><br/><br/>
-              Con una laurea in economia aiuto anche questa figura professionale ad emergere nel mercato,
+              Con una laurea in economia aiuto anche questa figura professionale ad <span className={"red"}>emergere nel mercato</span>,
               insegnando la giusta strategia.
             </p>
           </div>
