@@ -10,6 +10,7 @@ import Presentation from "../Presentation/Presentation";
 //immagini
 import ambraHomeMobile from '../assets/images/ambra-home-mobile.webp'
 import pareteVerde from '../assets/images/risorse.webp'
+import contattamiMobile from '../assets/images/contattami-mobile.webp'
 
 interface HomeProps {
   setCurrentRoute: (menu: string) => void;
@@ -62,7 +63,7 @@ class Home extends React.Component<HomeProps> {
             </p>
           </div>
         </div>
-        <div className={"block-4 bk-gray"}>
+        <div className={"block-4"}>
           <div className={"img"}/>
         </div>
         <div className={"block-5 bk-gray"}>
@@ -124,9 +125,9 @@ class Home extends React.Component<HomeProps> {
             </p>
           </div>
         </div>
-        <div className={"block-8"}>
+        <div className={"block-8 bk-gray"}>
           <div className={"container"}>
-            <div className={"postCard bk-white"}>
+            <div className={"postCard bk-white postCard-1"}>
               <div className={"container bk-red"}>
                 <div className={"img"}/>
               </div>
@@ -136,7 +137,7 @@ class Home extends React.Component<HomeProps> {
                 contenuti ogni giorno sotto forma di pills.
               </p>
             </div>
-            <div className={"postCard bk-white"}>
+            <div className={"postCard bk-white postCard-2"}>
               <div className={"container bk-red"}>
                 <div className={"img"}/>
               </div>
@@ -149,29 +150,35 @@ class Home extends React.Component<HomeProps> {
           </div>
         </div>
         <div className={"block-9"}>
-          <div className={"img"}/>
-          <div>
-            <p>
+          <img src={contattamiMobile} alt="contattamiMobile"/>
+          <div className={"container"}>
+            <p className={"white"}>
               Hai bisogno?
             </p>
-            <div className={"btn"}>Contattami</div>
+            <div className={"btn text-align-center"}>
+              <p className={"white bk-red"}>Contattami</p>
+            </div>
           </div>
 
         </div>
-        <div className={"block-10"}>
-          <div className={"img"}/>
-          <div>
+        <div className={"block-10 white text-align-center"}>
+          <p>I MIEI <span className={"bold"}>SERVIZI</span> FUTURI</p>
+          <div className={"container"}>
             <div>
               <p>
                 Consulenza d'arredo
               </p>
-              <div className={"btn"}> Scopri</div>
+              <div className={"btn"}>
+                <p className={"white bk-red"}>Scopri</p>
+              </div>
             </div>
             <div>
               <p>
                 Styiling Call
               </p>
-              <div className={"btn"}> Scopri</div>
+              <div className={"btn"}>
+                <p className={"white bk-red"}>Scopri</p>
+              </div>
             </div>
           </div>
         </div>

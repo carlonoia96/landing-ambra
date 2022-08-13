@@ -22,9 +22,9 @@
 
   .first-block .img:first-child {
     background-image: url('../assets/images/logo-home-mobile.webp');
-    margin-top: 10rem;
+    margin-top: 8rem;
     width: 100%;
-    height: 10rem;
+    height: 12rem;
   }
 
   /* .first-block .img:last-child {
@@ -86,14 +86,14 @@
   }
 
   .block-3 .container {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-right: 3rem;
     margin-left: 3rem;
   }
 
   .block-4 .img {
     background-image: url('../assets/images/ambra-lampadine1.webp');
-    height: 40rem;
+    height: 30rem;
     background-position: bottom;
   }
 
@@ -147,6 +147,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   .block-7 img {
@@ -159,7 +161,7 @@
     height: 10rem;
     width: 16rem;
     background-color: #32323299;
-    border-radius: 2rem;
+    border-radius: 1rem;
     display: flex;
     align-items: center;
     padding: 2rem;
@@ -171,6 +173,84 @@
     position: absolute;
     top: -2.6rem;
     background-image: url('../assets/images/new-logo2.webp');
+  }
+
+  .block-8 .postCard-1 .img{
+    background-image: url('../assets/images/ig.webp');
+    background-size: 85%;
+  }
+
+  .block-8>.container{
+    padding-top: 5rem;
+  }
+
+  .block-9{
+    position: relative;
+    padding-top: 5rem;
+  }
+
+  .block-9 img{
+    height: auto;
+    width: 100%;
+  }
+
+  .block-9 .btn {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block-9 .btn p {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 10rem;
+  }
+
+  .block-9 .container{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block-9 .container>p{
+    font-size: 1.5rem;
+  }
+
+  .block-10{
+    background-image: url('../assets/images/sfondoConsulenze.webp');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block-10 >p{
+    font-size: 1.5rem;
+  }
+
+  .block-10 .container>div {
+    height: 10rem;
+    width: 16rem;
+    background-color: #32323299;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .block-10 .container>div:first-child{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
   }
 
 
