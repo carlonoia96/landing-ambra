@@ -14,7 +14,7 @@
 
 .ambra-logo{
   background-image: url('../assets/images/new-logo2.webp');
-  height: 40px;
+  height: 2rem;
   width: 153px;
 }
 
@@ -73,9 +73,4 @@
   .toolbar{
     height: 82px;
   }
-}
-
-
-.logo-container{
-  opacity: 0;
 }
