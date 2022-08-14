@@ -76,6 +76,7 @@ class Home extends React.Component<HomeProps> {
               </div>
               <p className={"text-align-center"}>
                 <span className={"bold"}>Mission di Interni di design</span>
+                <br/>
                 <br/>Condividere consigli, tendenze e idee che ti ispireranno per creare un'atmosfera
                 confortevole ed elegante nei tuoi ambienti.
               </p>
@@ -87,6 +88,7 @@ class Home extends React.Component<HomeProps> {
               </div>
               <p className={"text-align-center"}>
                 <span className={"bold"}>Creiamo insieme Interni di design</span>
+                <br/>
                 <br/>Studiamo i principi del design d'interni, analizzando materiali & trends, un
                 coretto lighting design & garden design, e molto altro ancora, creando delle moodboard e
                 facendo sempre riferimento a ciò che più asseconda il nostro gusto personale.
@@ -99,6 +101,7 @@ class Home extends React.Component<HomeProps> {
               </div>
               <p className={"text-align-center"}>
                 <span className={"bold"}>Store di Interni di design</span>
+                <br/>
                 <br/>Tutto questo attraverso un <span className={"bold"}>percorso</span> che farà <span
                 className={"red"}>crescere</span> le tue <span className={"red"}>competenze</span> <span
                 className={"bold"}>step by step</span>.
@@ -116,14 +119,14 @@ class Home extends React.Component<HomeProps> {
               con il gusto estetico.
             </p>
           </div>
-          <div className={"img"}/>
+          <div className={"img hide-on-desktop"}/>
         </div>
         <div className={"block-7"}>
           <img className={"hide-on-desktop"} src={pareteVerde} alt="pareteVerde"/>
           <div className={"container text-align-center"}>
             <div className={"img"}/>
             <p className={"white"}>
-              Ti fornisco la <span className={"bold"}>chiave</span> giusta per creare interni emozionali
+              Ti fornisco la <span className={"bold red"}>chiave</span> giusta per creare interni emozionali
             </p>
           </div>
         </div>
@@ -135,6 +138,7 @@ class Home extends React.Component<HomeProps> {
               </div>
               <p className={"text-align-center"}>
                 <span className={"bold"}>Instagram</span>
+                <br/>
                 <br/>Puoi trovarmi su Instagram, dove condivido attraverso post, reel e stories tanti
                 contenuti ogni giorno sotto forma di pills.
               </p>
@@ -145,8 +149,8 @@ class Home extends React.Component<HomeProps> {
               </div>
               <p className={"text-align-center"}>
                 <span className={"bold"}>Youtube</span>
-                <br/>Condividere consigli, tendenze e idee che ti ispireranno per creare un'atmosfera
-                confortevole ed elegante nei tuoi ambienti.
+                <br/>
+                <br/>Ogni settimana un nuovo video incentrato sulle varie tematiche dell'interior design.
               </p>
             </div>
           </div>

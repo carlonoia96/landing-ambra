@@ -36,6 +36,14 @@
   background-image: url('../assets/images/ig.webp');
 }
 
+.block-8 .postCard-2 .img {
+  background-image: url('../assets/images/gif-youtube.gif');
+}
+
+.block-11 .postCard .img {
+  background-image: url('../assets/images/guideGratis.webp');
+}
+
 @media only screen and (min-width: 442px) {
 
   .first-block {
@@ -62,6 +70,7 @@
   .block-2 .img:last-child {
     background-image: url('../assets/images/ambra-cerchio.webp');
     height: 15rem;
+    background-position: right;
   }
 
   .block-2 {
@@ -69,8 +78,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 2rem;
-    margin-top: 2rem;
+    padding: 4rem;
   }
 
   .block-2 > div:first-child {
@@ -92,6 +100,7 @@
 
   .block-2 .btn {
     margin-top: 16rem;
+    justify-content: flex-end;
   }
 
   .block-2 .btn p {
@@ -111,8 +120,8 @@
 
   .block-3 > .container {
     width: 23rem;
-    padding-top: 15rem;
-    margin-left: 23%;
+    padding-top: 18rem;
+    margin-left: 20%;
   }
 
 
@@ -121,12 +130,16 @@
   }
 
   .block-5 .postCard-1 {
-    margin-left: 50%;
+    margin-left: 28rem;
   }
 
   .block-5 > .container {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .block-5 .postCard > p {
@@ -134,21 +147,24 @@
   }
 
   .block-5 .postCard-2 {
-    margin-left: 10%;
+    margin-left: -28rem;
     margin-top: -5rem;
   }
 
   .block-5 .postCard-3 {
-    margin-left: 50%;
+    margin-left: 28rem;
     margin-top: -5rem;
   }
 
   .block-6 {
-    height: 34rem;
+    height: 38rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    background-image: url('../assets/images/ambra-bw-sfondo.webp');
+    background-repeat: no-repeat;
+    background-position: top;
   }
 
   .block-6 .img {
@@ -160,6 +176,7 @@
   .block-6 > .container {
     width: 26rem;
     font-size: 1.5rem;
+    margin-left: -22rem;
   }
 
   .block-7 {
@@ -176,13 +193,17 @@
   .block-7 .container {
     position: relative;
     height: 10rem;
-    width: 20rem;
+    width: 15rem;
     background-color: #32323299;
     border-radius: 1rem;
     display: flex;
     align-items: center;
     padding: 2rem;
-    font-size: 1.5rem;
+    justify-content: center;
+  }
+
+  .block-7 .container p {
+    width: 10rem;
   }
 
   .block-7 .img {
@@ -193,28 +214,36 @@
     background-image: url('../assets/images/new-logo2.webp');
   }
 
-  .block-8>.container{
+  .block-8 > .container {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
-  .block-8 .postCard-1{
-    margin-left: 10%;
+  .block-8 .postCard-1 {
+    margin-left: 28rem;
   }
 
-  .block-8 .postCard-2{
-    margin-left: 50%;
+  .block-8 .postCard-2 {
+    margin-left: -28rem;
   }
 
   .block-8 .postCard > p {
     margin-top: 2rem;
   }
 
-  .block-8 .postCard-2{
+  .block-8 .postCard-2 {
     margin-top: -5rem;
   }
 
-  .block-9{
+  .block-8 .postCard-2 .img {
+    background-size: 83%;
+  }
+
+  .block-9 {
     background-image: url('../assets/images/contattami.webp');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -252,9 +281,10 @@
 
   .block-10 > p {
     font-size: 1.5rem;
+    margin-top: -4rem;
   }
 
-  .block-10 .container{
+  .block-10 .container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -273,6 +303,7 @@
     padding: 2rem;
     flex-direction: column;
   }
+
   .block-11 {
     background-image: url('../assets/images/sfondoScarica.webp');
     background-repeat: no-repeat;
@@ -287,6 +318,10 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+  }
+
+  .block-11 .postCard > p {
+    margin-top: 2rem;
   }
 }
 
@@ -455,6 +490,10 @@
   .block-8 .postCard-1 .img {
     background-image: url('../assets/images/ig.webp');
     background-size: 85%;
+  }
+
+  .block-8 .postCard-2 .img{
+    background-size: 100%;
   }
 
   .block-8 > .container {
