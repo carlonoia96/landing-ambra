@@ -53,11 +53,11 @@ class Home extends React.Component<HomeProps> {
                         </a>
                     </div>
                     <div className={"img hide-on-mobile"}>
-                        <a href={"/aboutme"} target={"_blank"}>
-                            <div className={"btn text-align-center "}>
+                        <div className={"btn text-align-center "}>
+                            <a href={"/aboutme"} target={"_blank"}>
                                 <p className={"white bk-red"}>Scopri di più!</p>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className={"block-3"}>
@@ -89,7 +89,7 @@ class Home extends React.Component<HomeProps> {
                 </div>
                 <div className={"block-5 bk-gray"}>
                     <div className={"container"}>
-                        <div className={"postCard bk-white postCard-1"}>
+                        <div className={"postCard bk-white postCard-1 hover-effect"}>
                             <div className={"container bk-red"}>
                                 <div className={"img"}/>
                             </div>
@@ -101,7 +101,7 @@ class Home extends React.Component<HomeProps> {
                             </p>
                         </div>
 
-                        <div className={"postCard bk-white postCard-2"}>
+                        <div className={"postCard bk-white postCard-2 hover-effect"}>
                             <div className={"container bk-red"}>
                                 <div className={"img"}/>
                             </div>
@@ -114,20 +114,24 @@ class Home extends React.Component<HomeProps> {
                             </p>
                         </div>
 
-                        <a href={"//shop/negozio"} target={"_blank"}>
-                            <div className={"postCard bk-white postCard-3"}>
-                                <div className={"container bk-red"}>
-                                    <div className={"img"}/>
+                        <div className={"postCard-container-3"}>
+                            <a href={"/shop/negozio"} target={"_blank"}>
+                                <div className={"postCard bk-white postCard-3 hover-effect"}>
+                                    <div className={"container bk-red"}>
+                                        <div className={"img"}/>
+                                    </div>
+                                    <p className={"text-align-center"}>
+                                        <span className={"bold"}>Store di Interni di design</span>
+                                        <br/>
+                                        <br/>Tutto questo attraverso un <span className={"bold"}>percorso</span> che
+                                        farà <span
+                                        className={"red"}>crescere</span> le tue <span className={"red"}>competenze</span>
+                                        <span
+                                            className={"bold"}>step by step</span>.
+                                    </p>
                                 </div>
-                                <p className={"text-align-center"}>
-                                    <span className={"bold"}>Store di Interni di design</span>
-                                    <br/>
-                                    <br/>Tutto questo attraverso un <span className={"bold"}>percorso</span> che farà <span
-                                    className={"red"}>crescere</span> le tue <span className={"red"}>competenze</span> <span
-                                    className={"bold"}>step by step</span>.
-                                </p>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className={"block-6"}>
@@ -154,32 +158,37 @@ class Home extends React.Component<HomeProps> {
                 </div>
                 <div className={"block-8 bk-gray"}>
                     <div className={"container"}>
-                        <a href={"https://www.instagram.com/internididesign/"} target={"_blank"}>
-                            <div className={"postCard bk-white postCard-1"}>
-                                <div className={"container bk-red"}>
-                                    <div className={"img"}/>
+                        <div className={"postCard-container-1"}>
+                            <a href={"https://www.instagram.com/internididesign/"} target={"_blank"}>
+                                <div className={"postCard bk-white postCard-1"}>
+                                    <div className={"container bk-red"}>
+                                        <div className={"img"}/>
+                                    </div>
+                                    <p className={"text-align-center"}>
+                                        <span className={"bold"}>Instagram</span>
+                                        <br/>
+                                        <br/>Puoi trovarmi su Instagram, dove condivido attraverso post, reel e stories
+                                        tanti
+                                        contenuti ogni giorno sotto forma di pills.
+                                    </p>
                                 </div>
-                                <p className={"text-align-center"}>
-                                    <span className={"bold"}>Instagram</span>
-                                    <br/>
-                                    <br/>Puoi trovarmi su Instagram, dove condivido attraverso post, reel e stories tanti
-                                    contenuti ogni giorno sotto forma di pills.
-                                </p>
-                            </div>
-                        </a>
-                        <a href={"https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"} target={"_blank"}>
-                            <div className={"postCard bk-white postCard-2"}>
-                                <div className={"container bk-red"}>
-                                    <div className={"img"}/>
+                            </a>
+                        </div>
+                        <div className={"postCard-container-2"}>
+                            <a href={"https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"} target={"_blank"}>
+                                <div className={"postCard bk-white postCard-2"}>
+                                    <div className={"container bk-red"}>
+                                        <div className={"img"}/>
+                                    </div>
+                                    <p className={"text-align-center"}>
+                                        <span className={"bold"}>Youtube</span>
+                                        <br/>
+                                        <br/>Ogni settimana un nuovo video incentrato sulle varie tematiche dell'interior
+                                        design.
+                                    </p>
                                 </div>
-                                <p className={"text-align-center"}>
-                                    <span className={"bold"}>Youtube</span>
-                                    <br/>
-                                    <br/>Ogni settimana un nuovo video incentrato sulle varie tematiche dell'interior
-                                    design.
-                                </p>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className={"block-9"}>
