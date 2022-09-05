@@ -116,6 +116,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
   }
 
   .block-3 > .container {
@@ -123,6 +124,22 @@
     padding-top: 18rem;
     margin-left: 20%;
   }
+
+  .block-3 > .svg{
+    transform: rotatey(180deg);
+    width: 120vw;
+    height: 1.5rem;
+    position: absolute;
+    top: 0%;
+    left: -5rem;
+  }
+
+  .block-3 svg{
+    height: 100%;
+    width: 100%;
+    fill: white;
+  }
+
 
 
   .postCard {
@@ -180,14 +197,16 @@
   }
 
   .block-7 {
-    background-image: url('../assets/images/risorse.webp');
-    background-position: bottom;
+    /*background-image: url('../assets/images/risorse.webp');*/
+    background-image: url('../assets/images/risorse2.webp');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -1.2rem;
   }
 
   .block-7 .container {
@@ -404,11 +423,14 @@
     margin-left: 3rem;
   }
 
+
   .block-4 .img {
     background-image: url('../assets/images/ambra-lampadine1.webp');
     height: 30rem;
     background-position: bottom;
   }
+
+
 
   .block-5 {
     padding-top: 5rem;
@@ -461,6 +483,7 @@
     justify-content: center;
     width: 100vw;
     overflow-x: hidden;
+    margin-top: -1rem;
   }
 
   .block-7 img {
