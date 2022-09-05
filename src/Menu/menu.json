@@ -4,11 +4,31 @@
     "url" :"/"
   },
   {
-    "title":"Chi sono",
+    "title":"About me",
     "url" :"/aboutme"
   },
   {
-    "title":"I miei corsi",
+    "title":"Shop",
     "url" : "/shop"
+  },
+  {
+    "title":"Free contents",
+    "url" : "/shop/negozio/"
+  },
+  {
+    "title":"IDM",
+    "url" : "/masterclass/"
+  },
+  {
+    "title":"ID Consulting",
+    "url" : "/consulenza"
+  },
+  {
+    "title":"Styling Call",
+    "url" : "/stylingcall"
+  },
+  {
+    "title":"Contattami",
+    "url" : "/shop/contattami/"
   }
 ]
