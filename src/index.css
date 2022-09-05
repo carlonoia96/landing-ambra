@@ -52,9 +52,13 @@ a, a>div, .hover-effect {
 }
 
 a:hover,
-a:hover>div,
-.hover-effect:hover{
+a:hover>div{
   transform: scale(1.05);
+}
+
+.no-hover-effect:hover,
+.no-hover-effect:hover>div{
+  transform: scale(1);
 }
 
 button {

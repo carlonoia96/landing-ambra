@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './Home.css';
 
 //immagini
@@ -8,6 +8,7 @@ import ambraHome from '../assets/images/ambra-home.webp'
 import pareteVerde from '../assets/images/risorse.webp'
 import waves from '../assets/images/waves.svg'
 import contattamiMobile from '../assets/images/contattami-mobile.webp'
+import Postcard from "../Postcard/Postcard";
 
 interface HomeProps {
     setCurrentRoute: (menu: string) => void;
@@ -89,49 +90,46 @@ class Home extends React.Component<HomeProps> {
                 </div>
                 <div className={"block-5 bk-gray"}>
                     <div className={"container"}>
-                        <div className={"postCard bk-white postCard-1 hover-effect"}>
-                            <div className={"container bk-red"}>
-                                <div className={"img"}/>
-                            </div>
-                            <p className={"text-align-center"}>
-                                <span className={"bold"}>Mission di Interni di design</span>
-                                <br/>
-                                <br/>Condividere consigli, tendenze e idee che ti ispireranno per creare un'atmosfera
-                                confortevole ed elegante nei tuoi ambienti.
-                            </p>
-                        </div>
 
-                        <div className={"postCard bk-white postCard-2 hover-effect"}>
-                            <div className={"container bk-red"}>
-                                <div className={"img"}/>
-                            </div>
-                            <p className={"text-align-center"}>
-                                <span className={"bold"}>Creiamo insieme Interni di design</span>
-                                <br/>
-                                <br/>Studiamo i principi del design d'interni, analizzando materiali & trends, un
-                                coretto lighting design & garden design, e molto altro ancora, creando delle moodboard e
-                                facendo sempre riferimento a ciò che più asseconda il nostro gusto personale.
-                            </p>
-                        </div>
+                        <Postcard
+                            classID={"postCard-1"}
+                            hoverEffect={true}
+                            title={"Mission di Interni di design"}
+                            text={
+                                <Fragment>
+                                    Condividere consigli, tendenze e idee che ti ispireranno per creare un'atmosfera
+                                    confortevole ed elegante nei tuoi ambienti.
+                                </Fragment>}
+                        />
 
-                        <div className={"postCard-container-3"}>
-                            <a href={"/shop/negozio"} target={"_blank"}>
-                                <div className={"postCard bk-white postCard-3 hover-effect"}>
-                                    <div className={"container bk-red"}>
-                                        <div className={"img"}/>
-                                    </div>
-                                    <p className={"text-align-center"}>
-                                        <span className={"bold"}>Store di Interni di design</span>
-                                        <br/>
-                                        <br/>Tutto questo attraverso un <span className={"bold"}>percorso</span> che
-                                        farà <span
-                                        className={"red"}>crescere</span> le tue <span className={"red"}>competenze</span>
-                                        <span
-                                            className={"bold"}>step by step</span>.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
+                        <Postcard
+                            classID={"postCard-2"}
+                            hoverEffect={true}
+                            title={"Creiamo insieme Interni di design"}
+                            text={
+                                <Fragment>
+                                    Studiamo i principi del design d'interni, analizzando materiali & trends, un
+                                    coretto lighting design & garden design, e molto altro ancora, creando delle
+                                    moodboard e
+                                    facendo sempre riferimento a ciò che più asseconda il nostro gusto personale.
+                                </Fragment>}
+                        />
+
+                        <Postcard
+                            classID={"postCard-3"}
+                            link={"/shop/negozio"}
+                            hoverEffect={true}
+                            title={"Store di Interni di design"}
+                            text={
+                                <Fragment>
+                                    Tutto questo attraverso un <span
+                                    className={"bold"}>percorso</span> che farà <span
+                                    className={"red"}>crescere</span> le tue <span
+                                    className={"red"}>competenze </span><span
+                                    className={"bold"}>step by step</span>.
+                                </Fragment>}
+                        />
+
                     </div>
                 </div>
                 <div className={"block-6"}>
@@ -158,37 +156,33 @@ class Home extends React.Component<HomeProps> {
                 </div>
                 <div className={"block-8 bk-gray"}>
                     <div className={"container"}>
-                        <div className={"postCard-container-1"}>
-                            <a href={"https://www.instagram.com/internididesign/"} target={"_blank"}>
-                                <div className={"postCard bk-white postCard-1"}>
-                                    <div className={"container bk-red"}>
-                                        <div className={"img"}/>
-                                    </div>
-                                    <p className={"text-align-center"}>
-                                        <span className={"bold"}>Instagram</span>
-                                        <br/>
-                                        <br/>Puoi trovarmi su Instagram, dove condivido attraverso post, reel e stories
-                                        tanti
-                                        contenuti ogni giorno sotto forma di pills.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                        <div className={"postCard-container-2"}>
-                            <a href={"https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"} target={"_blank"}>
-                                <div className={"postCard bk-white postCard-2"}>
-                                    <div className={"container bk-red"}>
-                                        <div className={"img"}/>
-                                    </div>
-                                    <p className={"text-align-center"}>
-                                        <span className={"bold"}>Youtube</span>
-                                        <br/>
-                                        <br/>Ogni settimana un nuovo video incentrato sulle varie tematiche dell'interior
-                                        design.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
+
+                        <Postcard
+                            classID={"postCard-1"}
+                            link={"https://www.instagram.com/internididesign/"}
+                            hoverEffect={true}
+                            title={"Instagram"}
+                            text={
+                                <Fragment>
+                                    Puoi trovarmi su Instagram, dove condivido attraverso post, reel e stories
+                                    tanti
+                                    contenuti ogni giorno sotto forma di pills.
+                                </Fragment>}
+                        />
+
+                        <Postcard
+                            classID={"postCard-2"}
+                            link={"https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"}
+                            hoverEffect={true}
+                            title={"Youtube"}
+                            text={
+                                <Fragment>
+                                    Ogni settimana un nuovo video incentrato sulle varie tematiche
+                                    dell'interior
+                                    design.
+                                </Fragment>}
+                        />
+
                     </div>
                 </div>
                 <div className={"block-9"}>
@@ -232,21 +226,25 @@ class Home extends React.Component<HomeProps> {
                 </div>
                 <div className={"block-11 bk-gray"}>
                     <div className={"container"}>
-                        <div className={"postCard bk-white postCard-1"}>
-                            <div className={"container bk-red"}>
-                                <div className={"img"}/>
-                            </div>
-                            <p className={"text-align-center"}>
-                                Le tue <span className={"bold"}>guide gratuite</span> per arredare al meglio casa, ti
-                                aspettano!
-                                Non perdere questa occasione!
-                            </p>
-                            <a href={"https://www.internididesign.com/shop/negozio/"} target={"_blank"}>
-                                <div className={"btn text-align-center"}>
-                                    <p className={"white bk-red"}>Scarica ora</p>
-                                </div>
-                            </a>
-                        </div>
+
+                        <Postcard
+                            classID={"postCard"}
+                            link={"https://www.internididesign.com/shop/negozio/"}
+                            hoverEffect={true}
+                            text={
+                                <Fragment>
+                                    <p className={"text-align-center"}>
+                                        Le tue <span className={"bold"}>guide gratuite</span> per arredare al meglio
+                                        casa, ti
+                                        aspettano!
+                                        Non perdere questa occasione!
+                                    </p>
+                                    <div className={"btn text-align-center"}>
+                                        <p className={"white bk-red"}>Scarica ora</p>
+                                    </div>
+                                </Fragment>}
+                        />
+
                     </div>
                 </div>
             </>
