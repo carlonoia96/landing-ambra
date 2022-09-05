@@ -91,7 +91,7 @@ class App extends React.Component<{}, AppState> {
             }
             <div className={'container'}>
                 <Routes>
-                    <Route path="/" element={<Home setCurrentRoute={this.setCurrentRoute}/>}/>
+                    <Route path="/test" element={<Home setCurrentRoute={this.setCurrentRoute}/>}/>
                 </Routes>
             </div>
         </>);
