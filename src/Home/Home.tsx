@@ -228,7 +228,7 @@ class Home extends React.Component<HomeProps> {
                     <div className={"container"}>
 
                         <Postcard
-                            classID={"postCard"}
+                            classID={"postCard-1"}
                             link={"https://www.internididesign.com/shop/negozio/"}
                             hoverEffect={true}
                             text={
