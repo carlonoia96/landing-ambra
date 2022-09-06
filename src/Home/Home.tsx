@@ -191,7 +191,7 @@ class Home extends React.Component<HomeProps> {
                         <p className={"white"}>
                             Hai bisogno?
                         </p>
-                        <a href={"https://www.internididesign.com/shop/contact/"} target={"_blank"}>
+                        <a href={"https://www.internididesign.com/shop/contattami/"} target={"_blank"}>
                             <div className={"btn text-align-center"}>
                                 <p className={"white bk-red"}>Contattami</p>
                             </div>
