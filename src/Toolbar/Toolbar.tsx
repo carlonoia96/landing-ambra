@@ -20,7 +20,7 @@ class Toolbar extends React.Component<ToolbarProps> {
                 <div className="menu-indicator-container">
                     <label id="menu-label" className="animate__animated animate__faster animate__fadeIn"
                            onClick={this.props.toggleMenu}>
-                        {this.props.currentRoute}
+                        Menu{/*{this.props.currentRoute}*/}
                     </label>
                     <button className={`menu-icon ${(this.props.isMenuOpen ? 'background-white' : '')}`}
                             onClick={this.props.toggleMenu}>
