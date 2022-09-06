@@ -63,14 +63,15 @@
     width: 21rem;
     height: 14rem;
     margin-bottom: -10rem;
-    margin-left: 51%;
+    margin-left: 12%;
 
   }
 
-  .block-2 .img:last-child {
+  .block-2 .img:first-child {
     background-image: url('../assets/images/ambra-cerchio.webp');
     height: 15rem;
-    background-position: right;
+    background-position: left;
+    margin-top: -4rem;
   }
 
   .block-2 {
@@ -81,11 +82,15 @@
     padding: 4rem;
   }
 
-  .block-2 > div:first-child {
+  .block-2 > div:last-child {
     width: 60%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
-  .block-2 > div:last-child {
+  .block-2 > div:first-child {
     width: 40%;
   }
 
@@ -100,7 +105,7 @@
 
   .block-2 .btn {
     margin-top: 16rem;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 
   .block-2 .btn p {
@@ -112,17 +117,18 @@
   }
 
   .block-3 {
-    background-image: url('../assets/images/ambra-lampadine.webp');
-    background-position: bottom;
+    background-image: url('../assets/images/ambra-lampadine2.webp');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
   }
 
   .block-3 > .container {
-    width: 23rem;
-    padding-top: 18rem;
-    margin-left: 20%;
+    width: 29rem;
+    padding-top: 14rem;
+    margin-left: 15%;
+    font-size: 1.25rem;
   }
 
   .block-3 > .svg{
@@ -146,6 +152,25 @@
 
   .block-5 .postCard-1 {
     margin-left: 28rem;
+  }
+
+  .block-5{
+    position: relative;
+  }
+
+  .block-5 > .svg{
+    transform: rotatey(180deg);
+    width: 120vw;
+    height: 1.5rem;
+    position: absolute;
+    top: 0%;
+    left: -5rem;
+  }
+
+  .block-5 svg{
+    height: 100%;
+    width: 100%;
+    fill: white;
   }
 
   .block-5 > .container {
@@ -194,8 +219,8 @@
   }
 
   .block-6 > .container {
-    width: 26rem;
-    font-size: 1.5rem;
+    width: 22rem;
+    font-size: 1.25rem;
     margin-left: -22rem;
   }
 
