@@ -56,7 +56,7 @@ class Menu extends React.Component<MenuProps> {
                         <p>
                             Rimaniamo in contatto 👇
                             <br />
-                            <a href="mailto: info@internididesign.com">info@internididesign.com</a>
+                            <a href="/shop/contattami/" target={"_blank"}>info@internididesign.com</a>
                         </p>
                     </div>
                     <div className="menu-body menu-element">
@@ -66,9 +66,9 @@ class Menu extends React.Component<MenuProps> {
                             </a>
                         ))}
                     </div>
-                    {/*<div className="menu-footer  menu-element">
+                    <div className="menu-footer menu-element">
                         <a
-                            href="https://www.instagram.com/co-de-agency/"
+                            href="https://www.instagram.com/internididesign/"
                             className="background instagram"
                             target="_blank"
                             rel="noreferrer"
@@ -76,14 +76,14 @@ class Menu extends React.Component<MenuProps> {
                             {" "}
                         </a>
                         <a
-                            href="https://www.linkedin.com/company/co-de-agency"
-                            className="background facebook"
+                            href="https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"
+                            className="background youtube"
                             target="_blank"
                             rel="noreferrer"
                         >
                             {" "}
                         </a>
-                    </div>*/}
+                    </div>
                 </div>
             </div>
         );
