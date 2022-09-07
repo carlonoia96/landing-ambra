@@ -121,18 +121,18 @@ button:hover {
 
 
 ::selection {
-  background: #dac6ff; /* WebKit/Blink Browsers */
+  background: #dfdfdf; /* WebKit/Blink Browsers */
   color: white;
 }
 
 ::-moz-selection {
-  background: #dac6ff;
+  background: #dfdfdf;
   color: white;
 }
 
 
 .bordered-text {
-  border: 2px solid #dac6ff;
+  border: 2px solid #dfdfdf;
   border-radius: 35px;
   font-weight: 500;
   padding: 10px;
@@ -151,7 +151,7 @@ button:hover {
 }
 
 .button {
-  background: #dac6ff;
+  background: #dfdfdf;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -280,7 +280,7 @@ button:hover {
 }
 
 .base-color {
-  color: #dac6ff;
+  color: #dfdfdf;
 }
 
 .felx-center {
