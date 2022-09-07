@@ -89,7 +89,7 @@ class App extends React.Component<{}, AppState> {
                     setCurrentRoute={this.setCurrentRoute}
                 />
             }
-            <div className={'container'}>
+            <div className={'container overflow-x-hidden'}>
                 <Routes>
                     <Route path="/" element={<Home setCurrentRoute={this.setCurrentRoute}/>}/>
                 </Routes>
