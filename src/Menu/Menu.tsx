@@ -54,7 +54,7 @@ class Menu extends React.Component<MenuProps> {
                 <div className="menu-grey-box">
                     <div className="menu-header menu-element">
                         <p>
-                            Rimaniamo in contatto 👇
+                            Keep in touch! 👇
                             <br />
                             <a href="/shop/contattami/" target={"_blank"}>info@internididesign.com</a>
                         </p>
