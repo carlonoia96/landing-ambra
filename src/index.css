@@ -472,42 +472,6 @@ button:hover {
 .title {
   font-size: 1.5rem;
 }
-
-.postCard {
-  font-size: 1.2rem;
-  width: 26rem;
-  border-radius: 2rem;
-  padding: 2rem;
-}
-
-.postCard .img {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 85%;
-  width: 100%;
-}
-
-.postCard .container {
-  height: 15rem;
-  border-radius: 1rem;
-  display: flex;
-  align-items: center;
-}
-
-.btn {
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn p {
-  padding: 1rem;
-  border-radius: 1rem;
-  width: 10rem;
-}
-
 html {
   font-size: 28px;
 }
@@ -523,7 +487,7 @@ html {
   }
 
   .hide-on-mobile {
-    display: none;
+    display: none !important;
   }
 
 }
@@ -531,6 +495,6 @@ html {
 
 @media only screen and (min-width: 769px) {
   .hide-on-desktop {
-    display: none;
+    display: none !important;
   }
 }

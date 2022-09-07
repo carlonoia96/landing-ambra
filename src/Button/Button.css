@@ -1,0 +1,12 @@
+.btn {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn p {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 10rem;
+}

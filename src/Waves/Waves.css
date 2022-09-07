@@ -1,0 +1,19 @@
+.svg{
+    transform: rotatey(180deg);
+    width: 120vw;
+    height: 1.5rem;
+}
+
+svg{
+    height: 100%;
+    width: 100%;
+    fill: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .svg {
+        width: 60rem;
+        height: 1.5rem;
+        margin-left: -22rem;
+    }
+}
