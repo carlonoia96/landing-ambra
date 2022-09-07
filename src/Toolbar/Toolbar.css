@@ -73,4 +73,10 @@
   .toolbar{
     height: 82px;
   }
+  .ambra-logo{
+    width: 70px;
+  }
+  .logo-container{
+    align-items: flex-start;
+  }
 }
