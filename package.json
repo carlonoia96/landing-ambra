@@ -1,7 +1,7 @@
 {
   "name": "ambra",
   "homepage": "https://www.internididesign.com",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
