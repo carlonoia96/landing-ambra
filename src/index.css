@@ -47,7 +47,6 @@ code {
 a, a>div, .hover-effect {
   text-decoration: none;
   color: initial;
-
   transition: all 0.1s ease-in-out;
 }
 
@@ -119,7 +118,6 @@ button:hover {
   transition: all 0.3s ease-in-out;
 }
 
-
 ::selection {
   background: #dfdfdf; /* WebKit/Blink Browsers */
   color: white;
@@ -161,7 +159,6 @@ button:hover {
   color: #031f32;
   padding: 0 43px 0 44px;
   border-radius: 16px;
-  font-family: 'silkamedium';
 }
 
 .project-main-div {
