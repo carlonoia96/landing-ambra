@@ -1,30 +1,29 @@
 [
   {
-    "title":"Home",
+    "title":"Home \uD83C\uDFE0",
     "url" :"/"
   },
   {
-    "title":"About me",
+    "title":"About me \uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDCBB",
     "url" :"/aboutme"
   },
   {
-    "title":"Store",
+    "title":"Store \uD83D\uDED2",
     "url" : "/shop"
   },
   {
-    "title":"Free contents",
+    "title":"Free contents \uD83D\uDCDA",
     "url" : "/shop/negozio/"
   },
   {
-    "title":"IDM",
-    "url" : "/masterclass/"
+    "title":"IDM ❤"
   },
   {
-    "title":"ID Consulting",
+    "title":"Id consulting \uD83D\uDCA1",
     "url" : "/consulenza"
   },
   {
-    "title":"Styling Call",
+    "title":"Coachich One to One \uD83D\uDCBB",
     "url" : "/stylingcall"
   }
 ]

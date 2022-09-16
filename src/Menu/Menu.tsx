@@ -54,7 +54,7 @@ class Menu extends React.Component<MenuProps> {
                 <div className="menu-grey-box">
                     <div className="menu-header menu-element">
                         <p>
-                            Keep in touch! 👇
+                            Keep in touch 📩
                             <br />
                             <a href="/shop/contattami/" target={"_blank"}>info@internididesign.com</a>
                         </p>
@@ -81,6 +81,16 @@ class Menu extends React.Component<MenuProps> {
                             target="_blank"
                             rel="noreferrer"
                         >
+
+                            {" "}
+                        </a>
+                      <a
+                            href="https://t.me/internididesign"
+                            className="background telegram"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+
                             {" "}
                         </a>
                     </div>
