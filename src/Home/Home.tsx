@@ -192,9 +192,8 @@ class Home extends React.Component<HomeProps> {
                         </div>
                         <div>
                             <p>
-                                Styiling Call
+                              Coaching <br/> One to One
                             </p>
-                            <br/>
                             <Button text={"Scopri"} link={"https://www.internididesign.com/stylingcall/"} />
                         </div>
                     </div>
