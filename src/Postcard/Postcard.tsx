@@ -5,6 +5,7 @@ interface PostcardProps {
     classID:string;
     link?:string;
     hoverEffect:boolean;
+    hr?:boolean;
     title?:string;
     text:any;
 }
@@ -14,7 +15,16 @@ function printContent(props:any) {
         return (<>
             <p className={"text-align-center"}>
                 <span className={"bold"}>{props.title}</span>
+                <hr/>
                 <br/>
+                <br/>
+                {props.text}
+            </p>
+        </>)
+    }else if(props.hr){
+        return (<>
+            <p className={"text-align-center"}>
+                <hr/>
                 <br/>
                 {props.text}
             </p>

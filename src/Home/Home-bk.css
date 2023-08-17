@@ -294,7 +294,7 @@
 
 .risorse .btn p,
 .generic-block-6 .btn p {
-    background-color: #ff1616;
+    background-color: #b1a7a1;
     border-radius: 15px;
     padding-left: 25px;
     padding-right: 25px;
@@ -302,7 +302,7 @@
 }
 
 .btn-scopri p {
-    background-color: #ff1616;
+    background-color: #b1a7a1;
     border-radius: 15px;
     padding-left: 25px;
     padding-right: 25px;
@@ -430,7 +430,7 @@
 }
 
 .consulenze .btn p {
-    background-color: #ff1616;
+    background-color: #b1a7a1;
     border-radius: 15px;
     padding-left: 25px;
     padding-right: 25px;
@@ -663,7 +663,7 @@
 }
 
 .laurea .title {
-    color: #ff1616;
+    color: #b1a7a1;
     font-size: 42px;
     margin-bottom: 60px;
 }

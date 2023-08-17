@@ -32,11 +32,11 @@
 
 .menu-grey-box{
   min-width: 350px;
-  width: 40%;
+  width: 22rem;
   min-height: 400px;
   height: 90%;
   border-radius: 32px;
-  background-color: #ff1616;
+  background-color: #b1a7a1;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 5%;
@@ -150,12 +150,12 @@
 }
 
 
-.menu-body.menu-element a:nth-child(5){
+.menu-body.menu-element a:nth-child(4){
   color: #5454;
   cursor: pointer;
 
 }
 
-.menu-body.menu-element a:nth-child(5):hover, .menu-body.menu-element a:nth-child(5):hover>div {
+.menu-body.menu-element a:nth-child(4):hover, .menu-body.menu-element a:nth-child(4):hover>div {
   transform: scale(1);
 }

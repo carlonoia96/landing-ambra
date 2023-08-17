@@ -2,13 +2,25 @@ import React, { FC } from 'react';
 import './Waves.css';
 
 interface WavesProps {
-    mobile?:boolean
+    mobile?:boolean,
+    desktop?:boolean
+}
+
+function display(props:WavesProps){
+    let text = ""
+    if(!props.mobile){
+        text += " hide-on-mobile"
+    }
+    if(!props.desktop){
+        text += " hide-on-desktop"
+    }
+    return text
 }
 
 class Waves extends  React.Component<WavesProps>{
     render() {
         return (<>
-            <div className={`svg ${this.props.mobile?'':'hide-on-mobile'} `}>
+            <div className={`svg ${display(this.props)} `}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                     <path className="elementor-shape-fill" opacity="0.33"
                           d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>

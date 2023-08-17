@@ -75,24 +75,6 @@ class Menu extends React.Component<MenuProps> {
                         >
                             {" "}
                         </a>
-                        <a
-                            href="https://www.youtube.com/channel/UCzqDKcbku749QbNNCrtzPdQ"
-                            className="background youtube"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-
-                            {" "}
-                        </a>
-                      <a
-                            href="https://t.me/internididesign"
-                            className="background telegram"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-
-                            {" "}
-                        </a>
                     </div>
                 </div>
             </div>

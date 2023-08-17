@@ -1,6 +1,6 @@
 .postCard {
-    font-size: 1.2rem;
-    width: 26rem;
+    font-size: 0.8rem;
+    width: 22rem;
     border-radius: 2rem;
     padding: 2rem;
 }
@@ -8,9 +8,10 @@
 .postCard .img {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 85%;
+    background-size: cover;
+    height: 100%;
     width: 100%;
+    border-radius: 1rem;
 }
 
 .postCard .container {
@@ -18,6 +19,19 @@
     border-radius: 1rem;
     display: flex;
     align-items: center;
+}
+
+hr{
+    height: 5px;
+    border: 1px solid #cec0b4;
+    background-color: #cec0b4;
+    width: 45%;
+    align-self: center;
+}
+
+.postCard p{
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 768px) {

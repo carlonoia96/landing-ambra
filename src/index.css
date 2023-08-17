@@ -427,7 +427,7 @@ button:hover {
 
 /*------------------------NEW------------------------*/
 * {
-  font-family: 'code-pro' !important;
+  font-family: 'poppins' !important;
 }
 
 .white {
@@ -435,11 +435,11 @@ button:hover {
 }
 
 .red {
-  color: #ff1616
+  color: #c9b29c
 }
 
 .bk-red {
-  background-color: #ff1616;
+  background-color: #b1a7a1;
 }
 
 .bk-darkGray {
@@ -447,11 +447,11 @@ button:hover {
 }
 
 .gray {
-  color: #cccccc;
+  color: #e5e2db;
 }
 
 .bk-gray {
-  background-color: #cccccc;
+  background-color: #e5e2db;
 }
 
 .bk-white {
